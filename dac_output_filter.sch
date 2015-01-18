@@ -292,45 +292,45 @@ N 52700 43800 52300 43800 4
 N 50900 42800 50900 42700 4
 C 53200 42900 1 0 0 gnd-1.sym
 N 53300 43300 53300 43200 4
-C 42100 43700 1 0 0 generic-power.sym
+C 53400 49900 1 0 0 generic-power.sym
 {
-T 42300 43950 5 10 1 1 0 3 1
+T 53600 50150 5 10 1 1 0 3 1
 net=Vcc:V+
 }
-C 43100 43700 1 0 0 generic-power.sym
+C 54400 49900 1 0 0 generic-power.sym
 {
-T 43300 43950 5 10 1 1 0 3 1
+T 54600 50150 5 10 1 1 0 3 1
 net=Vcc:V-
 }
-C 44100 43700 1 0 0 generic-power.sym
+C 55400 49900 1 0 0 generic-power.sym
 {
-T 44300 43950 5 10 1 1 0 3 1
+T 55600 50150 5 10 1 1 0 3 1
 net=Vcc:VA
 }
-C 43400 42900 1 90 0 in-1.sym
+C 54700 49100 1 90 0 in-1.sym
 {
-T 43100 42900 5 10 0 0 90 0 1
+T 54400 49100 5 10 0 0 90 0 1
 device=INPUT
-T 43400 42700 5 10 1 1 90 0 1
+T 54700 48900 5 10 1 1 90 0 1
 refdes=v-
 }
-C 42400 42900 1 90 0 in-1.sym
+C 53700 49100 1 90 0 in-1.sym
 {
-T 42100 42900 5 10 0 0 90 0 1
+T 53400 49100 5 10 0 0 90 0 1
 device=INPUT
-T 42300 42600 5 10 1 1 90 0 1
+T 53600 48800 5 10 1 1 90 0 1
 refdes=v+
 }
-C 44400 42900 1 90 0 in-1.sym
+C 55700 49100 1 90 0 in-1.sym
 {
-T 44100 42900 5 10 0 0 90 0 1
+T 55400 49100 5 10 0 0 90 0 1
 device=INPUT
-T 44400 42700 5 10 1 1 90 0 1
+T 55700 48900 5 10 1 1 90 0 1
 refdes=va
 }
-N 44300 43700 44300 43500 4
-N 43300 43500 43300 43700 4
-N 42300 43700 42300 43500 4
+N 55600 49900 55600 49700 4
+N 54600 49700 54600 49900 4
+N 53600 49900 53600 49700 4
 C 48600 48400 1 0 0 generic-power.sym
 {
 T 48800 48650 5 10 1 1 0 3 1
@@ -355,3 +355,18 @@ N 50900 45000 50900 44900 4
 B 48700 42100 5300 3500 3 0 0 2 100 100 0 -1 -1 -1 -1 -1
 T 48700 41800 9 10 1 0 0 0 1
 Mute control circuit (active low)
+T 40100 40200 9 10 1 0 0 0 14
+This file is part of Headphones.
+
+Headphones is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Headphones is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
