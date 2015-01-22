@@ -170,11 +170,7 @@ T 46700 46300 5 10 1 1 0 0 1
 value=33
 }
 N 46800 46300 47500 46300 4
-N 45900 46300 45000 46300 4
-{
-T 45100 46300 5 10 1 1 0 0 1
-netname=MCLK
-}
+N 45900 46300 45300 46300 4
 C 45900 45900 1 0 0 resistor-1.sym
 {
 T 46200 46300 5 10 0 0 0 0 1
@@ -647,3 +643,12 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
+C 45300 46200 1 0 1 output-2.sym
+{
+T 44400 46400 5 10 0 0 0 6 1
+net=DSP_MCLK
+T 45100 46900 5 10 0 0 0 6 1
+device=none
+T 44400 46300 5 10 1 1 0 7 1
+value=DSP_MCLK
+}
