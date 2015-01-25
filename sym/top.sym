@@ -1,0 +1,18 @@
+v 20110115 2
+T 500 500 9 10 1 0 0 0 1
+Headphones
+B 0 0 2000 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 400 1300 8 10 0 0 0 0 1
+source=input_adc_stage.sch
+T 400 1500 8 10 0 0 0 0 1
+source=digital_signal_processing.sch
+T 400 1700 8 10 0 0 0 0 1
+source=output_dac_stage.sch
+T 400 1900 8 10 0 0 0 0 1
+device=none
+T 400 2100 8 10 0 0 0 0 1
+graphical=1
+T 400 2300 8 10 0 0 0 0 1
+description=Headphones top level symbol
+T 400 2500 8 10 0 0 0 0 1
+numslots=1
