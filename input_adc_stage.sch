@@ -715,7 +715,7 @@ N 55100 43900 56000 43900 4
 C 55900 44200 1 0 0 generic-power.sym
 {
 T 56100 44450 5 10 1 1 0 3 1
-net=Vcc:3P3
+net=+3.3V
 }
 N 55100 44200 56100 44200 4
 N 55100 44500 55500 44500 4
@@ -725,7 +725,7 @@ N 55500 43000 55500 44200 4
 C 56000 42300 1 0 0 output-2.sym
 {
 T 56900 42500 5 10 0 0 0 0 1
-net=adci2s_sdo:1
+net=adci2s_sdo
 T 56200 43000 5 10 0 0 0 0 1
 device=none
 T 56900 42400 5 10 1 1 0 1 1
@@ -734,7 +734,7 @@ value=ADCI2S_SDO
 C 56000 42000 1 0 0 output-2.sym
 {
 T 56900 42200 5 10 0 0 0 0 1
-net=adci2s_lrclk:1
+net=adci2s_lrclk
 T 56200 42700 5 10 0 0 0 0 1
 device=none
 T 56900 42100 5 10 1 1 0 1 1
@@ -743,7 +743,7 @@ value=ADCI2S_LRCLK
 C 56000 41700 1 0 0 output-2.sym
 {
 T 56900 41900 5 10 0 0 0 0 1
-net=adci2s_sclk:1
+net=adci2s_sclk
 T 56200 42400 5 10 0 0 0 0 1
 device=none
 T 56900 41800 5 10 1 1 0 1 1
@@ -752,7 +752,7 @@ value=ADCI2S_SCLK
 C 57400 41400 1 0 1 input-2.sym
 {
 T 57400 41600 5 10 0 0 0 6 1
-net=DSP_MCLK
+net=dsp_mclk
 T 56800 42100 5 10 0 0 0 6 1
 device=none
 T 56900 41500 5 10 1 1 0 1 1

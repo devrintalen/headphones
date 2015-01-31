@@ -372,7 +372,7 @@ N 52000 49300 54100 49300 4
 C 54100 49800 1 0 0 output-2.sym
 {
 T 55000 50000 5 10 0 0 0 0 1
-net=dac_lrclk:1
+net=dac_lrclk
 T 54300 50500 5 10 0 0 0 0 1
 device=none
 T 55000 49900 5 10 1 1 0 1 1
@@ -381,7 +381,7 @@ value=DAC_LRCLK
 C 54100 49500 1 0 0 output-2.sym
 {
 T 55000 49700 5 10 0 0 0 0 1
-net=dac_sclk:1
+net=dac_sclk
 T 54300 50200 5 10 0 0 0 0 1
 device=none
 T 55000 49600 5 10 1 1 0 1 1
@@ -390,7 +390,7 @@ value=DAC_SCLK
 C 54100 49200 1 0 0 output-2.sym
 {
 T 55000 49400 5 10 0 0 0 0 1
-net=DAC_SDIN
+net=dac_sdin
 T 54300 49900 5 10 0 0 0 0 1
 device=none
 T 55000 49300 5 10 1 1 0 1 1
@@ -399,7 +399,7 @@ value=DAC_SDIN
 C 43000 53400 1 0 0 input-2.sym
 {
 T 43000 53600 5 10 0 0 0 0 1
-net=DSP_RST
+net=dsp_rst
 T 43600 54100 5 10 0 0 0 0 1
 device=none
 T 43500 53500 5 10 1 1 0 7 1
@@ -414,19 +414,10 @@ device=none
 T 43500 53200 5 10 1 1 0 7 1
 value=SCL
 }
-C 43000 52500 1 0 0 input-2.sym
-{
-T 43000 52700 5 10 0 0 0 0 1
-net=SDA
-T 43600 53200 5 10 0 0 0 0 1
-device=none
-T 43500 52600 5 10 1 1 0 7 1
-value=SDA
-}
 C 44400 51900 1 0 1 output-2.sym
 {
 T 43500 52100 5 10 0 0 0 6 1
-net=DSP_IRQ
+net=dsp_irq
 T 44200 52600 5 10 0 0 0 6 1
 device=none
 T 43500 52000 5 10 1 1 0 7 1
@@ -435,7 +426,7 @@ value=\_DSP_IRQ\_
 C 44400 51600 1 0 1 output-2.sym
 {
 T 43500 51800 5 10 0 0 0 6 1
-net=DSP_BSY
+net=dsp_bsy
 T 44200 52300 5 10 0 0 0 6 1
 device=none
 T 43500 51700 5 10 1 1 0 7 1
@@ -444,7 +435,7 @@ value=\_DSP_BSY\_
 C 45400 49800 1 0 0 input-2.sym
 {
 T 45400 50000 5 10 0 0 0 0 1
-net=usbi2s_lrclk:1
+net=usbi2s_lrclk
 T 46000 50500 5 10 0 0 0 0 1
 device=none
 T 45900 49900 5 10 1 1 0 7 1
@@ -453,7 +444,7 @@ value=USBI2S_LRCLK
 C 45400 49500 1 0 0 input-2.sym
 {
 T 45400 49700 5 10 0 0 0 0 1
-net=usbi2s_sclk:1
+net=usbi2s_sclk
 T 46000 50200 5 10 0 0 0 0 1
 device=none
 T 45900 49600 5 10 1 1 0 7 1
@@ -462,7 +453,7 @@ value=USBI2S_SCLK
 C 45400 49200 1 0 0 input-2.sym
 {
 T 45400 49400 5 10 0 0 0 0 1
-net=usbi2s_sdo:1
+net=usbi2s_sdo
 T 46000 49900 5 10 0 0 0 0 1
 device=none
 T 45900 49300 5 10 1 1 0 7 1
@@ -567,7 +558,7 @@ N 59700 42800 59700 44400 4
 C 45400 48900 1 0 0 input-2.sym
 {
 T 45400 49100 5 10 0 0 0 0 1
-net=adci2s_lrclk:1
+net=adci2s_lrclk
 T 46000 49600 5 10 0 0 0 0 1
 device=none
 T 45900 49000 5 10 1 1 0 7 1
@@ -576,7 +567,7 @@ value=ADCI2S_LRCLK
 C 45400 48600 1 0 0 input-2.sym
 {
 T 45400 48800 5 10 0 0 0 0 1
-net=adci2s_sclk:1
+net=adci2s_sclk
 T 46000 49300 5 10 0 0 0 0 1
 device=none
 T 45900 48700 5 10 1 1 0 7 1
@@ -585,7 +576,7 @@ value=ADCI2S_SCLK
 C 45400 48300 1 0 0 input-2.sym
 {
 T 45400 48500 5 10 0 0 0 0 1
-net=adci2s_sdo:1
+net=adci2s_sdo
 T 46000 49000 5 10 0 0 0 0 1
 device=none
 T 45900 48400 5 10 1 1 0 7 1
@@ -639,7 +630,7 @@ along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
 C 45300 46200 1 0 1 output-2.sym
 {
 T 44400 46400 5 10 0 0 0 6 1
-net=DSP_MCLK
+net=dsp_mclk
 T 45100 46900 5 10 0 0 0 6 1
 device=none
 T 44400 46300 5 10 1 1 0 7 1
@@ -653,4 +644,13 @@ T 52800 52900 5 10 0 0 0 0 1
 footprint=LQFP48_12
 T 51500 53900 5 10 1 1 0 0 1
 refdes=U?
+}
+C 44400 52500 1 0 1 io-1.sym
+{
+T 43500 52700 5 10 0 0 0 6 1
+net=sda
+T 44200 53100 5 10 0 0 0 6 1
+device=none
+T 43500 52600 5 10 1 1 0 7 1
+value=SDA
 }

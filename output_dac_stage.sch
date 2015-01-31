@@ -87,61 +87,61 @@ N 51200 50100 51200 49900 4
 N 49600 50000 51200 50000 4
 N 50400 49900 50400 50000 4
 N 49600 50000 49600 48300 4
-C 45100 45200 1 90 0 capacitor-1.sym
+C 44800 45200 1 90 0 capacitor-1.sym
 {
-T 44400 45400 5 10 0 0 90 0 1
+T 44100 45400 5 10 0 0 90 0 1
 device=CAPACITOR
-T 44600 45400 5 10 1 1 90 0 1
+T 44300 45400 5 10 1 1 90 0 1
 refdes=C?
-T 44200 45400 5 10 0 0 90 0 1
+T 43900 45400 5 10 0 0 90 0 1
 symversion=0.1
-T 44400 45800 5 10 1 1 0 0 1
+T 44100 45800 5 10 1 1 0 0 1
 value=0.1uF
 }
-C 44700 46300 1 0 0 generic-power.sym
+C 44400 46300 1 0 0 generic-power.sym
 {
-T 44900 46550 5 10 1 1 0 3 1
+T 44600 46550 5 10 1 1 0 3 1
 net=+3.3V
 }
-N 47200 46200 44900 46200 4
-N 44900 46100 44900 46300 4
-C 44800 44800 1 0 0 gnd-1.sym
-N 44900 45100 44900 45200 4
+N 47200 46200 44600 46200 4
+N 44600 46100 44600 46300 4
+C 44500 44800 1 0 0 gnd-1.sym
+N 44600 45100 44600 45200 4
 C 45500 46700 1 0 0 input-2.sym
 {
 T 45500 46900 5 10 0 0 0 0 1
-net=dac_lrck:1
+net=dac_lrck
 T 46100 47400 5 10 0 0 0 0 1
 device=none
 T 46000 46800 5 10 1 1 0 7 1
-value=dac_lrck
+value=DAC_LRCLK
 }
 C 45500 46400 1 0 0 input-2.sym
 {
 T 45500 46600 5 10 0 0 0 0 1
-net=dac_sdin:1
+net=dac_sdin
 T 46100 47100 5 10 0 0 0 0 1
 device=none
 T 46000 46500 5 10 1 1 0 7 1
-value=dac_sdin
+value=DAC_SDIN
 }
 C 45500 47000 1 0 0 input-2.sym
 {
 T 45500 47200 5 10 0 0 0 0 1
-net=dac_sclk:1
+net=dac_sclk
 T 46100 47700 5 10 0 0 0 0 1
 device=none
 T 46000 47100 5 10 1 1 0 7 1
-value=dac_sclk
+value=DAC_SCLK
 }
 C 45500 47300 1 0 0 input-2.sym
 {
 T 45500 47500 5 10 0 0 0 0 1
-net=dac_mclk:1
+net=dsp_mclk
 T 46100 48000 5 10 0 0 0 0 1
 device=none
 T 46000 47400 5 10 1 1 0 7 1
-value=dac_mclk
+value=DSP_MCLK
 }
 N 47200 47400 46900 47400 4
 N 46900 47100 47200 47100 4
@@ -172,11 +172,11 @@ T 48500 50300 9 10 1 0 0 0 1
 C 45500 43100 1 0 0 input-2.sym
 {
 T 45500 43300 5 10 0 0 0 0 1
-net=dac_rst:1
+net=dac_rst
 T 46100 43800 5 10 0 0 0 0 1
 device=none
 T 46000 43200 5 10 1 1 0 7 1
-value=dac_rst
+value=\_DAC_RST\_
 }
 N 46900 43200 47200 43200 4
 C 47000 42700 1 0 0 gnd-1.sym
@@ -186,20 +186,11 @@ N 47200 43500 47100 43500 4
 C 45500 44000 1 0 0 input-2.sym
 {
 T 45500 44200 5 10 0 0 0 0 1
-net=scl:1
+net=scl
 T 46100 44700 5 10 0 0 0 0 1
 device=none
 T 46000 44100 5 10 1 1 0 7 1
-value=scl
-}
-C 45500 43700 1 0 0 input-2.sym
-{
-T 45500 43900 5 10 0 0 0 0 1
-net=sda:1
-T 46100 44400 5 10 0 0 0 0 1
-device=none
-T 46000 43800 5 10 1 1 0 7 1
-value=sda
+value=SCL
 }
 N 46900 44100 47200 44100 4
 N 47200 43800 46900 43800 4
@@ -363,3 +354,12 @@ T 39900 40100 9 10 1 0 0 0 14
 
     You should have received a copy of the GNU General Public License
     along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
+C 46900 43700 1 0 1 io-1.sym
+{
+T 46000 43900 5 10 0 0 0 6 1
+net=sda
+T 46700 44300 5 10 0 0 0 6 1
+device=none
+T 46000 43800 5 10 1 1 0 7 1
+value=SDA
+}
