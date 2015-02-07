@@ -1,0 +1,255 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 48600 45700 1 0 1 input-2.sym
+{
+T 48600 45900 5 10 0 0 0 6 1
+net=adc_ovfl
+T 48000 46400 5 10 0 0 0 6 1
+device=none
+T 48100 45800 5 10 1 1 0 1 1
+value=\_ADC_OVFL\_
+}
+C 47200 45300 1 0 0 output-2.sym
+{
+T 48100 45500 5 10 0 0 0 0 1
+net=adc_rst
+T 47400 46000 5 10 0 0 0 0 1
+device=none
+T 48100 45400 5 10 1 1 0 1 1
+value=\_ADC_RST\_
+}
+C 47200 44900 1 0 0 output-2.sym
+{
+T 48100 45100 5 10 0 0 0 0 1
+net=adc_hpf
+T 47400 45600 5 10 0 0 0 0 1
+device=none
+T 48100 45000 5 10 1 1 0 1 1
+value=ADC_HPF
+}
+C 48600 46900 1 0 1 input-2.sym
+{
+T 48600 47100 5 10 0 0 0 6 1
+net=dsp_bsy
+T 48000 47600 5 10 0 0 0 6 1
+device=none
+T 48100 47000 5 10 1 1 0 1 1
+value=\_DSP_BSY\_
+}
+C 48600 46300 1 180 0 input-2.sym
+{
+T 48600 46100 5 10 0 0 180 0 1
+net=dsp_irq
+T 48000 45600 5 10 0 0 180 0 1
+device=none
+T 48100 46200 5 10 1 1 180 7 1
+value=\_DSP_IRQ\_
+}
+C 47200 46500 1 0 0 output-2.sym
+{
+T 48100 46700 5 10 0 0 0 0 1
+net=dsp_rst
+T 47400 47200 5 10 0 0 0 0 1
+device=none
+T 48100 46600 5 10 1 1 0 1 1
+value=\_DSP_RST\_
+}
+C 51000 43800 1 0 0 output-2.sym
+{
+T 51900 44000 5 10 0 0 0 0 1
+net=scl
+T 51200 44500 5 10 0 0 0 0 1
+device=none
+T 51900 43900 5 10 1 1 0 1 1
+value=SCL
+}
+C 51000 43400 1 0 0 io-1.sym
+{
+T 51900 43600 5 10 0 0 0 0 1
+net=sda
+T 51200 44000 5 10 0 0 0 0 1
+device=none
+T 51900 43500 5 10 1 1 0 1 1
+value=SDA
+}
+C 48600 47300 1 0 1 input-2.sym
+{
+T 48600 47500 5 10 0 0 0 6 1
+net=dac_rst
+T 48000 48000 5 10 0 0 0 6 1
+device=none
+T 48100 47400 5 10 1 1 0 1 1
+value=\_DAC_RST\_
+}
+C 42500 41100 1 0 0 ATmega328-1.sym
+{
+T 43800 49300 5 10 0 0 0 0 1
+device=ATMEGA32
+T 43800 49500 5 10 0 0 0 0 1
+footprint=MLF 44
+T 46500 49100 5 10 1 1 0 0 1
+refdes=U?
+T 43800 49900 5 10 0 0 0 0 1
+symversion=1.0
+}
+C 49800 44200 1 90 0 resistor-1.sym
+{
+T 49400 44500 5 10 0 0 90 0 1
+device=RESISTOR
+T 49500 44400 5 10 1 1 90 0 1
+refdes=R?
+T 49900 44800 5 10 1 1 0 0 1
+value=10K
+}
+C 50800 44200 1 90 0 resistor-1.sym
+{
+T 50400 44500 5 10 0 0 90 0 1
+device=RESISTOR
+T 50500 44400 5 10 1 1 90 0 1
+refdes=R?
+T 50900 44800 5 10 1 1 0 0 1
+value=10K
+}
+C 49500 45200 1 0 0 generic-power.sym
+{
+T 49700 45450 5 10 1 1 0 3 1
+net=+3.3V
+}
+C 50500 45200 1 0 0 generic-power.sym
+{
+T 50700 45450 5 10 1 1 0 3 1
+net=+3.3V
+}
+N 49700 45200 49700 45100 4
+N 50700 45200 50700 45100 4
+N 47000 43900 51000 43900 4
+N 49700 43900 49700 44200 4
+N 47000 43500 51000 43500 4
+N 50700 43500 50700 44200 4
+N 47000 46200 47200 46200 4
+C 52800 45800 1 0 0 header6-1.sym
+{
+T 52800 47000 5 10 0 1 0 0 1
+device=HEADER10
+T 53400 47100 5 10 1 1 0 0 1
+refdes=J?
+}
+N 52800 46800 52100 46800 4
+{
+T 52300 46800 5 10 1 1 0 0 1
+netname=MISO
+}
+N 52800 46400 52100 46400 4
+{
+T 52300 46400 5 10 1 1 0 0 1
+netname=SCK
+}
+N 52800 46000 52100 46000 4
+{
+T 52300 46000 5 10 1 1 0 0 1
+netname=RST
+}
+N 54200 46400 54900 46400 4
+{
+T 54300 46400 5 10 1 1 0 0 1
+netname=MOSI
+}
+C 54200 45600 1 0 0 gnd-1.sym
+N 54200 46000 54300 46000 4
+N 54300 46000 54300 45900 4
+N 42500 46600 41800 46600 4
+{
+T 41900 46600 5 10 1 1 0 0 1
+netname=MISO
+}
+N 42500 47000 41800 47000 4
+{
+T 41900 47000 5 10 1 1 0 0 1
+netname=SCK
+}
+N 47700 44300 47000 44300 4
+{
+T 47200 44300 5 10 1 1 0 0 1
+netname=RST
+}
+C 54100 46900 1 0 0 generic-power.sym
+{
+T 54300 47150 5 10 1 1 0 3 1
+net=+3.3V
+}
+N 54300 46900 54300 46800 4
+N 54300 46800 54200 46800 4
+N 41800 46200 42500 46200 4
+{
+T 41900 46200 5 10 1 1 0 0 1
+netname=MOSI
+}
+C 44600 40600 1 0 0 gnd-1.sym
+N 44300 41100 44300 41000 4
+N 44300 41000 44700 41000 4
+N 44700 40900 44700 41100 4
+N 45100 41100 45100 41000 4
+N 45100 41000 44700 41000 4
+N 47000 47400 47200 47400 4
+N 47000 47000 47200 47000 4
+N 47000 46600 47200 46600 4
+N 47000 45800 47200 45800 4
+N 47000 45400 47200 45400 4
+N 47000 45000 47200 45000 4
+C 44400 49500 1 0 0 generic-power.sym
+{
+T 44600 49750 5 10 1 1 0 3 1
+net=+3.3V
+}
+N 40900 49500 45000 49500 4
+N 45000 49500 45000 49100 4
+N 44600 49100 44600 49500 4
+C 41100 48500 1 90 0 capacitor-1.sym
+{
+T 40400 48700 5 10 0 0 90 0 1
+device=CAPACITOR
+T 40600 48700 5 10 1 1 90 0 1
+refdes=C?
+T 40200 48700 5 10 0 0 90 0 1
+symversion=0.1
+T 41000 49100 5 10 1 1 0 0 1
+value=100nF
+}
+C 42200 48500 1 90 0 capacitor-1.sym
+{
+T 41500 48700 5 10 0 0 90 0 1
+device=CAPACITOR
+T 41700 48700 5 10 1 1 90 0 1
+refdes=C?
+T 41300 48700 5 10 0 0 90 0 1
+symversion=0.1
+T 42100 49100 5 10 1 1 0 0 1
+value=100nF
+}
+C 40800 48100 1 0 0 gnd-1.sym
+N 40900 48500 40900 48400 4
+C 41900 48100 1 0 0 gnd-1.sym
+N 42000 48500 42000 48400 4
+N 40900 49400 40900 49500 4
+N 42000 49500 42000 49400 4
+T 50100 40700 9 10 1 0 0 0 1
+MICROCONTROLLER
+T 54000 40100 9 10 1 0 0 0 1
+DEVRIN TALEN
+T 54000 40400 9 10 1 0 0 0 1
+1.0
+T 50500 48000 9 10 1 0 0 0 14
+This file is part of Headphones.
+
+Headphones is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Headphones is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
