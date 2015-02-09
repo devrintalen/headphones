@@ -253,3 +253,75 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
+C 40700 44400 1 90 0 inductor-1.sym
+{
+T 40200 44600 5 10 0 0 90 0 1
+device=INDUCTOR
+T 40400 44600 5 10 1 1 90 0 1
+refdes=L?
+T 40000 44600 5 10 0 0 90 0 1
+symversion=0.1
+}
+C 40400 45400 1 0 0 generic-power.sym
+{
+T 40600 45650 5 10 1 1 0 3 1
+net=+3.3V
+}
+C 40800 43300 1 90 0 capacitor-1.sym
+{
+T 40100 43500 5 10 0 0 90 0 1
+device=CAPACITOR
+T 40300 43500 5 10 1 1 90 0 1
+refdes=C?
+T 39900 43500 5 10 0 0 90 0 1
+symversion=0.1
+T 40700 43900 5 10 1 1 0 0 1
+value=100nF
+}
+C 40500 42900 1 0 0 gnd-1.sym
+N 40600 43300 40600 43200 4
+N 40600 45400 40600 45300 4
+N 40600 44400 40600 44200 4
+N 42500 44300 40600 44300 4
+C 41500 43700 1 0 0 generic-power.sym
+{
+T 41700 43950 5 10 1 1 0 3 1
+net=BATT
+}
+N 42500 43900 42400 43900 4
+N 42400 43900 42400 44300 4
+C 41800 42700 1 90 0 resistor-1.sym
+{
+T 41400 43000 5 10 0 0 90 0 1
+device=RESISTOR
+T 41500 42900 5 10 1 1 90 0 1
+refdes=R?
+T 41900 43400 5 10 1 1 0 0 1
+value=10K
+}
+C 41800 41600 1 90 0 resistor-1.sym
+{
+T 41400 41900 5 10 0 0 90 0 1
+device=RESISTOR
+T 41500 41800 5 10 1 1 90 0 1
+refdes=R?
+T 41900 42300 5 10 1 1 0 0 1
+value=10K
+}
+C 41600 41200 1 0 0 gnd-1.sym
+N 41700 41600 41700 41500 4
+N 41700 43700 41700 43600 4
+N 41700 42700 41700 42500 4
+N 41700 42600 42300 42600 4
+N 42300 42600 42300 43500 4
+N 42300 43500 42500 43500 4
+C 48600 47700 1 0 1 input-2.sym
+{
+T 48600 47900 5 10 0 0 0 6 1
+net=jack_detect
+T 48000 48400 5 10 0 0 0 6 1
+device=none
+T 48100 47800 5 10 1 1 0 1 1
+value=JACK_DETECT
+}
+N 47000 47800 47200 47800 4
