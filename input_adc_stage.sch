@@ -6,7 +6,7 @@ device=CS5381
 T 54600 45900 5 10 0 0 0 0 1
 footprint=SOIC_24
 T 54600 45500 5 10 1 1 0 0 1
-refdes=U?
+refdes=U1
 }
 C 51800 40200 1 0 0 gnd-1.sym
 N 52000 40900 51900 40900 4
@@ -17,7 +17,7 @@ C 50000 43800 1 90 0 capacitor-1.sym
 T 49300 44000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 49500 44000 5 10 1 1 90 0 1
-refdes=C?
+refdes=C1
 T 49100 44000 5 10 0 0 90 0 1
 symversion=0.1
 T 49900 44400 5 10 1 1 0 0 1
@@ -28,7 +28,7 @@ C 49900 44900 1 90 0 capacitor-1.sym
 T 49200 45100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 49400 45100 5 10 1 1 90 0 1
-refdes=C?
+refdes=C2
 T 49000 45100 5 10 0 0 90 0 1
 symversion=0.1
 T 49800 45500 5 10 1 1 0 0 1
@@ -39,7 +39,7 @@ C 49100 43800 1 90 0 capacitor-2.sym
 T 48400 44000 5 10 0 0 90 0 1
 device=POLARIZED_CAPACITOR
 T 48600 44000 5 10 1 1 90 0 1
-refdes=C?
+refdes=C3
 T 48200 44000 5 10 0 0 90 0 1
 symversion=0.1
 T 48400 44400 5 10 1 1 0 0 1
@@ -50,7 +50,7 @@ C 48600 45800 1 270 0 capacitor-2.sym
 T 49300 45600 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 49100 45600 5 10 1 1 270 0 1
-refdes=C?
+refdes=C4
 T 49500 45600 5 10 0 0 270 0 1
 symversion=0.1
 T 48200 45500 5 10 1 1 0 0 1
@@ -77,7 +77,7 @@ C 48800 41000 1 90 0 resistor-1.sym
 T 48400 41300 5 10 0 0 90 0 1
 device=RESISTOR
 T 48500 41200 5 10 1 1 90 0 1
-refdes=R?
+refdes=R1
 T 48800 41300 5 10 1 1 0 0 1
 value=5.1
 }
@@ -86,7 +86,7 @@ C 48000 41200 1 90 0 capacitor-1.sym
 T 47300 41400 5 10 0 0 90 0 1
 device=CAPACITOR
 T 47500 41400 5 10 1 1 90 0 1
-refdes=C?
+refdes=C5
 T 47100 41400 5 10 0 0 90 0 1
 symversion=0.1
 T 47900 41800 5 10 1 1 0 0 1
@@ -97,7 +97,7 @@ C 48900 39600 1 90 0 capacitor-1.sym
 T 48200 39800 5 10 0 0 90 0 1
 device=CAPACITOR
 T 48400 39800 5 10 1 1 90 0 1
-refdes=C?
+refdes=C6
 T 48000 39800 5 10 0 0 90 0 1
 symversion=0.1
 T 48800 40200 5 10 1 1 0 0 1
@@ -108,7 +108,7 @@ C 51100 40200 1 90 0 capacitor-1.sym
 T 50400 40400 5 10 0 0 90 0 1
 device=CAPACITOR
 T 50600 40400 5 10 1 1 90 0 1
-refdes=C?
+refdes=C7
 T 50200 40400 5 10 0 0 90 0 1
 symversion=0.1
 T 51000 40800 5 10 1 1 0 0 1
@@ -119,7 +119,7 @@ C 49700 41100 1 270 0 capacitor-2.sym
 T 50400 40900 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 50200 40900 5 10 1 1 270 0 1
-refdes=C?
+refdes=C8
 T 50600 40900 5 10 0 0 270 0 1
 symversion=0.1
 T 49500 40800 5 10 1 1 0 0 1
@@ -130,7 +130,7 @@ C 46600 42100 1 270 0 capacitor-2.sym
 T 47300 41900 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 47100 41900 5 10 1 1 270 0 1
-refdes=C?
+refdes=C9
 T 47500 41900 5 10 0 0 270 0 1
 symversion=0.1
 T 46400 41800 5 10 1 1 0 0 1
@@ -146,18 +146,8 @@ C 46700 40800 1 0 0 gnd-1.sym
 C 47700 40800 1 0 0 gnd-1.sym
 N 47800 41100 47800 41200 4
 N 46800 41100 46800 41200 4
-C 46600 42200 1 0 0 generic-power.sym
-{
-T 46800 42450 5 10 1 1 0 3 1
-net=+5V
-}
 N 46800 42200 46800 42100 4
 N 48700 41900 48700 42100 4
-C 49700 41300 1 0 0 generic-power.sym
-{
-T 49900 41550 5 10 1 1 0 3 1
-net=+3.3V
-}
 N 49900 41100 49900 41300 4
 N 49900 41200 51400 41200 4
 N 50900 41100 50900 41200 4
@@ -173,7 +163,7 @@ C 42800 48100 1 0 0 dual-opamp-1.sym
 T 43000 50400 5 10 0 0 0 0 1
 device=DUAL_OPAMP
 T 42800 49000 5 10 1 1 0 0 1
-refdes=U?
+refdes=U2
 T 43000 50000 5 10 0 0 0 0 1
 footprint=SO8
 T 43000 50600 5 10 0 0 0 0 1
@@ -184,7 +174,7 @@ C 42800 46300 1 180 1 dual-opamp-1.sym
 T 43000 44000 5 10 0 0 180 6 1
 device=DUAL_OPAMP
 T 42700 46500 5 10 1 1 180 6 1
-refdes=U?
+refdes=U2
 T 43000 44400 5 10 0 0 180 6 1
 footprint=SO8
 T 43000 43800 5 10 0 0 180 6 1
@@ -197,7 +187,7 @@ C 41000 47300 1 90 0 resistor-1.sym
 T 40600 47600 5 10 0 0 90 0 1
 device=RESISTOR
 T 40700 47500 5 10 1 1 90 0 1
-refdes=R?
+refdes=R2
 T 41100 47900 5 10 1 1 0 0 1
 value=100K
 }
@@ -206,7 +196,7 @@ C 41000 45100 1 90 0 resistor-1.sym
 T 40600 45400 5 10 0 0 90 0 1
 device=RESISTOR
 T 40700 45300 5 10 1 1 90 0 1
-refdes=R?
+refdes=R3
 T 41100 45700 5 10 1 1 0 0 1
 value=100K
 }
@@ -215,7 +205,7 @@ C 42500 47300 1 90 0 resistor-1.sym
 T 42100 47600 5 10 0 0 90 0 1
 device=RESISTOR
 T 42200 47500 5 10 1 1 90 0 1
-refdes=R?
+refdes=R4
 T 42600 47900 5 10 1 1 0 0 1
 value=10K
 }
@@ -224,7 +214,7 @@ C 42500 46200 1 90 0 resistor-1.sym
 T 42100 46500 5 10 0 0 90 0 1
 device=RESISTOR
 T 42200 46400 5 10 1 1 90 0 1
-refdes=R?
+refdes=R5
 T 42600 46800 5 10 1 1 0 0 1
 value=10K
 }
@@ -233,7 +223,7 @@ C 43700 44200 1 180 0 resistor-1.sym
 T 43400 43800 5 10 0 0 180 0 1
 device=RESISTOR
 T 43500 43900 5 10 1 1 180 0 1
-refdes=R?
+refdes=R6
 T 43600 44200 5 10 1 1 0 0 1
 value=634
 }
@@ -242,7 +232,7 @@ C 44900 46000 1 180 0 resistor-1.sym
 T 44600 45600 5 10 0 0 180 0 1
 device=RESISTOR
 T 44400 46200 5 10 1 1 180 0 1
-refdes=R?
+refdes=R7
 T 44600 45600 5 10 1 1 0 0 1
 value=91
 }
@@ -251,7 +241,7 @@ C 43700 50500 1 180 0 resistor-1.sym
 T 43400 50100 5 10 0 0 180 0 1
 device=RESISTOR
 T 43200 50700 5 10 1 1 180 0 1
-refdes=R?
+refdes=R8
 T 43400 50100 5 10 1 1 0 0 1
 value=91
 }
@@ -260,7 +250,7 @@ C 44900 48600 1 180 0 resistor-1.sym
 T 44600 48200 5 10 0 0 180 0 1
 device=RESISTOR
 T 44400 48800 5 10 1 1 180 0 1
-refdes=R?
+refdes=R9
 T 44600 48200 5 10 1 1 0 0 1
 value=91
 }
@@ -269,7 +259,7 @@ C 42800 49400 1 0 0 capacitor-1.sym
 T 43000 50100 5 10 0 0 0 0 1
 device=CAPACITOR
 T 43000 49900 5 10 1 1 0 0 1
-refdes=C?
+refdes=C10
 T 43000 50300 5 10 0 0 0 0 1
 symversion=0.1
 T 43400 49400 5 10 1 1 0 0 1
@@ -280,7 +270,7 @@ C 42800 44500 1 0 0 capacitor-1.sym
 T 43000 45200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 42900 44900 5 10 1 1 0 0 1
-refdes=C?
+refdes=C11
 T 43000 45400 5 10 0 0 0 0 1
 symversion=0.1
 T 43400 44500 5 10 1 1 0 0 1
@@ -291,7 +281,7 @@ C 45200 46700 1 90 0 capacitor-1.sym
 T 44500 46900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44700 46900 5 10 1 1 90 0 1
-refdes=C?
+refdes=C12
 T 44300 46900 5 10 0 0 90 0 1
 symversion=0.1
 T 45100 47300 5 10 1 1 0 0 1
@@ -302,7 +292,7 @@ C 42100 48100 1 0 1 capacitor-2.sym
 T 41900 48800 5 10 0 0 0 6 1
 device=POLARIZED_CAPACITOR
 T 41900 48600 5 10 1 1 0 6 1
-refdes=C?
+refdes=C13
 T 41900 49000 5 10 0 0 0 6 1
 symversion=0.1
 T 41800 48100 5 10 1 1 0 0 1
@@ -313,7 +303,7 @@ C 42100 45900 1 0 1 capacitor-2.sym
 T 41900 46600 5 10 0 0 0 6 1
 device=POLARIZED_CAPACITOR
 T 41900 46400 5 10 1 1 0 6 1
-refdes=C?
+refdes=C14
 T 41900 46800 5 10 0 0 0 6 1
 symversion=0.1
 T 41800 45900 5 10 1 1 0 0 1
@@ -361,26 +351,6 @@ N 43700 50400 45000 50400 4
 N 45000 47600 45000 50400 4
 N 44900 48500 45000 48500 4
 C 38900 34200 0 0 0 title-C.sym
-C 43100 48900 1 0 0 generic-power.sym
-{
-T 43300 49150 5 10 1 1 0 3 1
-net=+12V
-}
-C 43500 48100 1 180 0 generic-power.sym
-{
-T 43300 47850 5 10 1 1 180 3 1
-net=-12V
-}
-C 43500 45500 1 180 0 generic-power.sym
-{
-T 43300 45250 5 10 1 1 180 3 1
-net=-12V
-}
-C 43100 46300 1 0 0 generic-power.sym
-{
-T 43300 46550 5 10 1 1 0 3 1
-net=+12V
-}
 N 45000 48500 45900 48500 4
 {
 T 45300 48500 5 10 1 1 0 0 1
@@ -396,7 +366,7 @@ C 42800 40700 1 0 0 dual-opamp-1.sym
 T 43000 43000 5 10 0 0 0 0 1
 device=DUAL_OPAMP
 T 42800 41600 5 10 1 1 0 0 1
-refdes=U?
+refdes=U3
 T 43000 42600 5 10 0 0 0 0 1
 footprint=SO8
 T 43000 43200 5 10 0 0 0 0 1
@@ -407,7 +377,7 @@ C 42800 38900 1 180 1 dual-opamp-1.sym
 T 43000 36600 5 10 0 0 180 6 1
 device=DUAL_OPAMP
 T 42700 39100 5 10 1 1 180 6 1
-refdes=U?
+refdes=U3
 T 43000 37000 5 10 0 0 180 6 1
 footprint=SO8
 T 43000 36400 5 10 0 0 180 6 1
@@ -420,7 +390,7 @@ C 41000 39900 1 90 0 resistor-1.sym
 T 40600 40200 5 10 0 0 90 0 1
 device=RESISTOR
 T 40700 40100 5 10 1 1 90 0 1
-refdes=R?
+refdes=R10
 T 41100 40500 5 10 1 1 0 0 1
 value=100K
 }
@@ -429,7 +399,7 @@ C 41000 37700 1 90 0 resistor-1.sym
 T 40600 38000 5 10 0 0 90 0 1
 device=RESISTOR
 T 40700 37900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R11
 T 41100 38300 5 10 1 1 0 0 1
 value=100K
 }
@@ -438,7 +408,7 @@ C 42500 39900 1 90 0 resistor-1.sym
 T 42100 40200 5 10 0 0 90 0 1
 device=RESISTOR
 T 42200 40100 5 10 1 1 90 0 1
-refdes=R?
+refdes=R12
 T 42600 40500 5 10 1 1 0 0 1
 value=10K
 }
@@ -447,7 +417,7 @@ C 42500 38800 1 90 0 resistor-1.sym
 T 42100 39100 5 10 0 0 90 0 1
 device=RESISTOR
 T 42200 39000 5 10 1 1 90 0 1
-refdes=R?
+refdes=R13
 T 42600 39400 5 10 1 1 0 0 1
 value=10K
 }
@@ -456,7 +426,7 @@ C 43700 36800 1 180 0 resistor-1.sym
 T 43400 36400 5 10 0 0 180 0 1
 device=RESISTOR
 T 43500 36500 5 10 1 1 180 0 1
-refdes=R?
+refdes=R14
 T 43600 36800 5 10 1 1 0 0 1
 value=634
 }
@@ -465,7 +435,7 @@ C 44900 38600 1 180 0 resistor-1.sym
 T 44600 38200 5 10 0 0 180 0 1
 device=RESISTOR
 T 44400 38800 5 10 1 1 180 0 1
-refdes=R?
+refdes=R15
 T 44600 38200 5 10 1 1 0 0 1
 value=91
 }
@@ -474,7 +444,7 @@ C 43700 43100 1 180 0 resistor-1.sym
 T 43400 42700 5 10 0 0 180 0 1
 device=RESISTOR
 T 43200 43300 5 10 1 1 180 0 1
-refdes=R?
+refdes=R16
 T 43400 42700 5 10 1 1 0 0 1
 value=91
 }
@@ -483,7 +453,7 @@ C 44900 41200 1 180 0 resistor-1.sym
 T 44600 40800 5 10 0 0 180 0 1
 device=RESISTOR
 T 44400 41400 5 10 1 1 180 0 1
-refdes=R?
+refdes=R17
 T 44600 40800 5 10 1 1 0 0 1
 value=91
 }
@@ -492,7 +462,7 @@ C 42800 42000 1 0 0 capacitor-1.sym
 T 43000 42700 5 10 0 0 0 0 1
 device=CAPACITOR
 T 43000 42500 5 10 1 1 0 0 1
-refdes=C?
+refdes=C15
 T 43000 42900 5 10 0 0 0 0 1
 symversion=0.1
 T 43400 42000 5 10 1 1 0 0 1
@@ -503,7 +473,7 @@ C 42800 37100 1 0 0 capacitor-1.sym
 T 43000 37800 5 10 0 0 0 0 1
 device=CAPACITOR
 T 42900 37500 5 10 1 1 0 0 1
-refdes=C?
+refdes=C16
 T 43000 38000 5 10 0 0 0 0 1
 symversion=0.1
 T 43400 37100 5 10 1 1 0 0 1
@@ -514,7 +484,7 @@ C 45200 39300 1 90 0 capacitor-1.sym
 T 44500 39500 5 10 0 0 90 0 1
 device=CAPACITOR
 T 44700 39500 5 10 1 1 90 0 1
-refdes=C?
+refdes=C17
 T 44300 39500 5 10 0 0 90 0 1
 symversion=0.1
 T 45100 39900 5 10 1 1 0 0 1
@@ -525,7 +495,7 @@ C 42100 40700 1 0 1 capacitor-2.sym
 T 41900 41400 5 10 0 0 0 6 1
 device=POLARIZED_CAPACITOR
 T 41900 41200 5 10 1 1 0 6 1
-refdes=C?
+refdes=C18
 T 41900 41600 5 10 0 0 0 6 1
 symversion=0.1
 T 41800 40700 5 10 1 1 0 0 1
@@ -536,7 +506,7 @@ C 42100 38500 1 0 1 capacitor-2.sym
 T 41900 39200 5 10 0 0 0 6 1
 device=POLARIZED_CAPACITOR
 T 41900 39000 5 10 1 1 0 6 1
-refdes=C?
+refdes=C19
 T 41900 39400 5 10 0 0 0 6 1
 symversion=0.1
 T 41800 38500 5 10 1 1 0 0 1
@@ -583,26 +553,6 @@ N 43900 42200 43700 42200 4
 N 43700 43000 45000 43000 4
 N 45000 40200 45000 43000 4
 N 44900 41100 45000 41100 4
-C 43100 41500 1 0 0 generic-power.sym
-{
-T 43300 41750 5 10 1 1 0 3 1
-net=+12V
-}
-C 43500 40700 1 180 0 generic-power.sym
-{
-T 43300 40450 5 10 1 1 180 3 1
-net=-12V
-}
-C 43500 38100 1 180 0 generic-power.sym
-{
-T 43300 37850 5 10 1 1 180 3 1
-net=-12V
-}
-C 43100 38900 1 0 0 generic-power.sym
-{
-T 43300 39150 5 10 1 1 0 3 1
-net=+12V
-}
 N 45000 41100 45900 41100 4
 {
 T 45300 41100 5 10 1 1 0 0 1
@@ -633,17 +583,12 @@ N 52000 42700 51000 42700 4
 T 51300 42700 5 10 1 1 0 0 1
 netname=AINR-
 }
-C 55200 46400 1 0 0 generic-power.sym
-{
-T 55400 46650 5 10 1 1 0 3 1
-net=+3.3V
-}
 C 55500 45400 1 90 0 resistor-1.sym
 {
 T 55100 45700 5 10 0 0 90 0 1
 device=RESISTOR
 T 55200 45600 5 10 1 1 90 0 1
-refdes=R?
+refdes=R18
 T 55600 46000 5 10 1 1 0 0 1
 value=10K
 }
@@ -653,7 +598,7 @@ N 55100 45100 56000 45100 4
 C 56000 45000 1 0 0 output-2.sym
 {
 T 57500 45200 5 10 0 0 0 6 1
-net=adc_ovfl
+net=adc_ovfl:15
 T 56200 45700 5 10 0 0 0 0 1
 device=none
 T 56900 45100 5 10 1 1 0 1 1
@@ -662,7 +607,7 @@ value=\_ADC_OVFL\_
 C 57400 44700 1 0 1 input-2.sym
 {
 T 57400 44900 5 10 0 0 0 6 1
-net=adc_rst
+net=adc_rst:1
 T 56800 45400 5 10 0 0 0 6 1
 device=none
 T 56900 44800 5 10 1 1 0 1 1
@@ -678,21 +623,16 @@ C 58500 43700 1 0 0 jumper-1.sym
 T 58800 44200 5 8 0 0 0 0 1
 device=JUMPER
 T 58800 44200 5 10 1 1 0 0 1
-refdes=J?
+refdes=J1
 }
 N 55100 43300 56800 43300 4
-C 58400 44800 1 0 0 generic-power.sym
-{
-T 58600 45050 5 10 1 1 0 3 1
-net=+3.3V
-}
 N 58600 44800 58600 44700 4
 C 58700 42600 1 90 0 resistor-1.sym
 {
 T 58300 42900 5 10 0 0 90 0 1
 device=RESISTOR
 T 58400 42800 5 10 1 1 90 0 1
-refdes=R?
+refdes=R19
 T 58800 43200 5 10 1 1 0 0 1
 value=10K
 }
@@ -703,18 +643,13 @@ N 55100 43600 58600 43600 4
 C 57400 43800 1 0 1 input-2.sym
 {
 T 57400 44000 5 10 0 0 0 6 1
-net=adc_hpf
+net=adc_hpf:11
 T 56800 44500 5 10 0 0 0 6 1
 device=none
 T 56900 43900 5 10 1 1 0 1 1
 value=ADC_HPF
 }
 N 55100 43900 56000 43900 4
-C 55900 44200 1 0 0 generic-power.sym
-{
-T 56100 44450 5 10 1 1 0 3 1
-net=+3.3V
-}
 N 55100 44200 56100 44200 4
 N 55100 44500 55500 44500 4
 N 55500 44500 55500 44200 4
@@ -723,7 +658,7 @@ N 55500 43000 55500 44200 4
 C 56000 42300 1 0 0 output-2.sym
 {
 T 56900 42500 5 10 0 0 0 0 1
-net=adci2s_sdo
+net=adci2s_sdo:9
 T 56200 43000 5 10 0 0 0 0 1
 device=none
 T 56900 42400 5 10 1 1 0 1 1
@@ -732,7 +667,7 @@ value=ADCI2S_SDO
 C 56000 42000 1 0 0 output-2.sym
 {
 T 56900 42200 5 10 0 0 0 0 1
-net=adci2s_lrclk
+net=adci2s_lrclk:3
 T 56200 42700 5 10 0 0 0 0 1
 device=none
 T 56900 42100 5 10 1 1 0 1 1
@@ -741,7 +676,7 @@ value=ADCI2S_LRCLK
 C 56000 41700 1 0 0 output-2.sym
 {
 T 56900 41900 5 10 0 0 0 0 1
-net=adci2s_sclk
+net=adci2s_sclk:4
 T 56200 42400 5 10 0 0 0 0 1
 device=none
 T 56900 41800 5 10 1 1 0 1 1
@@ -750,7 +685,7 @@ value=ADCI2S_SCLK
 C 57400 41400 1 0 1 input-2.sym
 {
 T 57400 41600 5 10 0 0 0 6 1
-net=dsp_mclk
+net=dsp_mclk:5
 T 56800 42100 5 10 0 0 0 6 1
 device=none
 T 56900 41500 5 10 1 1 0 1 1
@@ -809,7 +744,7 @@ device=SJ1-3514N
 T 48300 50300 5 10 0 0 0 0 1
 footprint=none
 T 50100 49800 5 10 1 1 0 0 1
-refdes=J?
+refdes=J2
 }
 C 39900 45800 1 0 0 gnd-1.sym
 {
@@ -824,10 +759,26 @@ netname=AGND_IN
 C 50700 48500 1 0 0 output-2.sym
 {
 T 51600 48700 5 10 0 0 0 0 1
-net=jack_detect
+net=jack_detect:1
 T 50900 49200 5 10 0 0 0 0 1
 device=none
 T 51600 48600 5 10 1 1 0 1 1
 value=JACK_DETECT
 }
 N 50300 48600 50700 48600 4
+C 43100 48900 1 0 0 12V-plus-1.sym
+C 43500 48100 1 180 0 12V-minus-1.sym
+C 43100 46300 1 0 0 12V-plus-1.sym
+C 43500 45500 1 180 0 12V-minus-1.sym
+C 43100 41500 1 0 0 12V-plus-1.sym
+C 43500 40700 1 180 0 12V-minus-1.sym
+C 43100 38900 1 0 0 12V-plus-1.sym
+C 43500 38100 1 180 0 12V-minus-1.sym
+C 49700 41300 1 0 0 3.3V-plus-1.sym
+C 46600 42200 1 0 0 5V-plus-1.sym
+C 55200 46400 1 0 0 3.3V-plus-1.sym
+C 58400 44800 1 0 0 3.3V-plus-1.sym
+C 55900 44200 1 0 0 3.3V-plus-1.sym
+C 50400 47700 1 0 0 gnd-1.sym
+N 50300 48900 50500 48900 4
+N 50500 48900 50500 48000 4

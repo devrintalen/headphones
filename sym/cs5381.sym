@@ -255,7 +255,7 @@ pinseq=23
 P 0 4600 300 4600 1 0 0
 {
 T 0 4600 5 10 0 0 0 0 1
-pintype=unknown
+pintype=pwr
 T 355 4595 9 10 1 1 0 0 1
 pinlabel=FILT+
 T 205 4645 5 10 1 1 0 6 1
