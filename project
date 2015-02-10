@@ -1,2 +1,2 @@
-schematics cs4398.sch 
+schematics input_adc_stage.sch digital_signal_processing.sch output_dac_stage.sch power.sch microcontroller.sch
 output-name board
