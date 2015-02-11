@@ -78,3 +78,13 @@ T -200 -3700 8 10 0 0 0 0 1
 footprint=SOT23-6
 T -200 -3900 8 10 0 0 0 0 1
 numslots=1
+T 1300 3000 8 10 0 0 0 0 1
+device=LTC3400
+T 1300 2800 8 10 0 0 0 0 1
+description=600mA 1.2MHz DC boost regulator
+T 1300 2600 8 10 0 0 0 0 1
+numslots=1
+T 1300 2400 8 10 0 0 0 0 1
+footprint=SOT23 6
+T 1300 2200 8 10 0 0 0 0 1
+slot=1

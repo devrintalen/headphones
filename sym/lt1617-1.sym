@@ -68,3 +68,13 @@ T 1900 1600 9 10 1 0 0 0 1
 LT1617
 T 1700 2600 8 10 0 0 0 0 1
 numslots=1
+T 1500 3400 8 10 0 0 0 0 1
+device=LT1617
+T 1500 3200 8 10 0 0 0 0 1
+description=Inverting DC converter
+T 1500 3000 8 10 0 0 0 0 1
+footprint=SOT23 5
+T 1500 2800 8 10 0 0 0 0 1
+numslots=1
+T 1500 2600 8 10 0 0 0 0 1
+slot=1

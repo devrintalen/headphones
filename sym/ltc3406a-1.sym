@@ -67,3 +67,13 @@ T 300 2200 8 10 0 0 0 0 1
 footprint=SOT23-5
 T 300 2000 8 10 0 0 0 0 1
 numslots=1
+T 1300 3100 8 10 0 0 0 0 1
+device=LTC3406A
+T 1300 2900 8 10 0 0 0 0 1
+description=600mA 1.5MHz DC buck regulator
+T 1300 2700 8 10 0 0 0 0 1
+footprint=SOT23 5
+T 1300 2500 8 10 0 0 0 0 1
+numslots=1
+T 1300 2300 8 10 0 0 0 0 1
+slot=1
