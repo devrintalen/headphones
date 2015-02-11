@@ -598,7 +598,7 @@ N 55100 45100 56000 45100 4
 C 56000 45000 1 0 0 output-2.sym
 {
 T 57500 45200 5 10 0 0 0 6 1
-net=adc_ovfl:15
+net=adc_ovfl:1
 T 56200 45700 5 10 0 0 0 0 1
 device=none
 T 56900 45100 5 10 1 1 0 1 1
@@ -643,7 +643,7 @@ N 55100 43600 58600 43600 4
 C 57400 43800 1 0 1 input-2.sym
 {
 T 57400 44000 5 10 0 0 0 6 1
-net=adc_hpf:11
+net=adc_hpf:1
 T 56800 44500 5 10 0 0 0 6 1
 device=none
 T 56900 43900 5 10 1 1 0 1 1
@@ -658,7 +658,7 @@ N 55500 43000 55500 44200 4
 C 56000 42300 1 0 0 output-2.sym
 {
 T 56900 42500 5 10 0 0 0 0 1
-net=adci2s_sdo:9
+net=adci2s_sdo:1
 T 56200 43000 5 10 0 0 0 0 1
 device=none
 T 56900 42400 5 10 1 1 0 1 1
@@ -667,7 +667,7 @@ value=ADCI2S_SDO
 C 56000 42000 1 0 0 output-2.sym
 {
 T 56900 42200 5 10 0 0 0 0 1
-net=adci2s_lrclk:3
+net=adci2s_lrclk:1
 T 56200 42700 5 10 0 0 0 0 1
 device=none
 T 56900 42100 5 10 1 1 0 1 1
@@ -676,7 +676,7 @@ value=ADCI2S_LRCLK
 C 56000 41700 1 0 0 output-2.sym
 {
 T 56900 41900 5 10 0 0 0 0 1
-net=adci2s_sclk:4
+net=adci2s_sclk:1
 T 56200 42400 5 10 0 0 0 0 1
 device=none
 T 56900 41800 5 10 1 1 0 1 1
@@ -685,7 +685,7 @@ value=ADCI2S_SCLK
 C 57400 41400 1 0 1 input-2.sym
 {
 T 57400 41600 5 10 0 0 0 6 1
-net=dsp_mclk:5
+net=dsp_mclk:1
 T 56800 42100 5 10 0 0 0 6 1
 device=none
 T 56900 41500 5 10 1 1 0 1 1

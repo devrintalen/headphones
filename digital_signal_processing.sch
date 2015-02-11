@@ -7,21 +7,36 @@ DEVRIN TALEN
 T 58500 39600 9 10 1 0 0 0 1
 1
 N 44400 52000 47500 52000 4
-N 44400 51700 47500 51700 4
-N 44400 53500 47500 53500 4
-N 44400 53200 47500 53200 4
-N 44400 52600 47500 52600 4
-C 46400 54900 1 0 1 generic-power.sym
 {
-T 46200 55150 5 10 1 1 0 3 1
-net=+3.3V
+T 44500 52000 5 10 1 1 0 0 1
+netname=DSP_IRQ
+}
+N 44400 51700 47500 51700 4
+{
+T 44500 51700 5 10 1 1 0 0 1
+netname=DSP_BSY
+}
+N 44400 53500 47500 53500 4
+{
+T 44500 53500 5 10 1 1 0 0 1
+netname=DSP_RST
+}
+N 44400 53200 47500 53200 4
+{
+T 44500 53200 5 10 1 1 0 0 1
+netname=SCL
+}
+N 44400 52600 47500 52600 4
+{
+T 44500 52600 5 10 1 1 0 0 1
+netname=SDA
 }
 C 45400 53700 1 90 0 resistor-1.sym
 {
 T 45000 54000 5 10 0 0 90 0 1
 device=RESISTOR
 T 45100 53900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R201
 T 45100 54300 5 10 1 1 90 0 1
 value=3.3K
 }
@@ -30,7 +45,7 @@ C 46000 53700 1 90 0 resistor-1.sym
 T 45600 54000 5 10 0 0 90 0 1
 device=RESISTOR
 T 45700 53900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R202
 T 45700 54300 5 10 1 1 90 0 1
 value=3.3K
 }
@@ -39,7 +54,7 @@ C 46600 53700 1 90 0 resistor-1.sym
 T 46200 54000 5 10 0 0 90 0 1
 device=RESISTOR
 T 46300 53900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R203
 T 46300 54300 5 10 1 1 90 0 1
 value=3.3K
 }
@@ -48,7 +63,7 @@ C 47200 53700 1 90 0 resistor-1.sym
 T 46800 54000 5 10 0 0 90 0 1
 device=RESISTOR
 T 46900 53900 5 10 1 1 90 0 1
-refdes=R?
+refdes=R204
 T 46900 54300 5 10 1 1 90 0 1
 value=3.3K
 }
@@ -63,8 +78,8 @@ C 45200 51000 1 0 0 resistor-1.sym
 {
 T 45500 51400 5 10 0 0 0 0 1
 device=RESISTOR
-T 45100 51100 5 10 1 1 0 0 1
-refdes=R?
+T 44900 51100 5 10 1 1 0 0 1
+refdes=R205
 T 46000 51100 5 10 1 1 0 0 1
 value=3.3K
 }
@@ -72,8 +87,8 @@ C 45200 50700 1 0 0 resistor-1.sym
 {
 T 45500 51100 5 10 0 0 0 0 1
 device=RESISTOR
-T 45100 50800 5 10 1 1 0 0 1
-refdes=R?
+T 44900 50800 5 10 1 1 0 0 1
+refdes=R206
 T 46000 50800 5 10 1 1 0 0 1
 value=3.3K
 }
@@ -87,14 +102,9 @@ N 46100 50800 47500 50800 4
 T 46700 50800 5 10 1 1 0 0 1
 netname=DBCK
 }
-C 45100 51100 1 0 1 generic-power.sym
-{
-T 44900 51350 5 10 1 1 0 3 1
-net=Vcc:3P3
-}
-N 44900 51100 45200 51100 4
-N 45200 50800 44900 50800 4
-N 44900 50800 44900 51100 4
+N 44600 51100 45200 51100 4
+N 45200 50800 44600 50800 4
+N 44600 50800 44600 51100 4
 C 47200 50200 1 0 0 gnd-1.sym
 N 47300 50500 47500 50500 4
 N 46800 49900 47500 49900 4
@@ -105,7 +115,7 @@ C 41300 46200 1 0 0 crystal-1.sym
 T 41500 46700 5 10 0 0 0 0 1
 device=CRYSTAL
 T 41500 46500 5 10 1 1 0 0 1
-refdes=U?
+refdes=U201
 T 41500 46900 5 10 0 0 0 0 1
 symversion=0.1
 T 41200 46000 5 10 1 1 0 0 1
@@ -116,7 +126,7 @@ C 41300 44000 1 90 0 capacitor-1.sym
 T 40600 44200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 40800 44200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C201
 T 40400 44200 5 10 0 0 90 0 1
 symversion=0.1
 T 40600 44700 5 10 1 1 0 0 1
@@ -127,7 +137,7 @@ C 42400 44000 1 90 0 capacitor-1.sym
 T 41700 44200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 41900 44200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C202
 T 41500 44200 5 10 0 0 90 0 1
 symversion=0.1
 T 41700 44700 5 10 1 1 0 0 1
@@ -138,7 +148,7 @@ C 41200 45300 1 0 0 resistor-1.sym
 T 41500 45700 5 10 0 0 0 0 1
 device=RESISTOR
 T 41400 45600 5 10 1 1 0 0 1
-refdes=R?
+refdes=R207
 T 41400 45100 5 10 1 1 0 0 1
 value=1M
 }
@@ -155,8 +165,8 @@ C 45900 46200 1 0 0 resistor-1.sym
 {
 T 46200 46600 5 10 0 0 0 0 1
 device=RESISTOR
-T 45800 46300 5 10 1 1 0 0 1
-refdes=R?
+T 45600 46300 5 10 1 1 0 0 1
+refdes=R208
 T 46700 46300 5 10 1 1 0 0 1
 value=33
 }
@@ -166,8 +176,8 @@ C 45900 45900 1 0 0 resistor-1.sym
 {
 T 46200 46300 5 10 0 0 0 0 1
 device=RESISTOR
-T 45800 46000 5 10 1 1 0 0 1
-refdes=R?
+T 45600 46000 5 10 1 1 0 0 1
+refdes=R209
 T 46700 46000 5 10 1 1 0 0 1
 value=5.11K 1%
 }
@@ -178,7 +188,7 @@ C 44000 45000 1 0 0 inductor-1.sym
 T 44200 45500 5 10 0 0 0 0 1
 device=INDUCTOR
 T 44200 45300 5 10 1 1 0 0 1
-refdes=L?
+refdes=L201
 T 44200 45700 5 10 0 0 0 0 1
 symversion=0.1
 T 44200 44900 5 10 1 1 0 0 1
@@ -189,10 +199,10 @@ C 45000 45100 1 270 0 capacitor-2.sym
 T 45700 44900 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 45500 44900 5 10 1 1 270 0 1
-refdes=C?
+refdes=C203
 T 45900 44900 5 10 0 0 270 0 1
 symversion=0.1
-T 45400 44400 5 10 1 1 0 0 1
+T 44700 44200 5 10 1 1 0 0 1
 value=10uF
 }
 C 45900 45100 1 270 0 capacitor-1.sym
@@ -200,16 +210,11 @@ C 45900 45100 1 270 0 capacitor-1.sym
 T 46600 44900 5 10 0 0 270 0 1
 device=CAPACITOR
 T 46400 44900 5 10 1 1 270 0 1
-refdes=C?
+refdes=C204
 T 46800 44900 5 10 0 0 270 0 1
 symversion=0.1
-T 46200 44400 5 10 1 1 0 0 1
+T 45600 44200 5 10 1 1 0 0 1
 value=0.1uF
-}
-C 43800 45100 1 0 1 generic-power.sym
-{
-T 43600 45350 5 10 1 1 0 3 1
-net=+3.3V
 }
 N 43600 45100 44000 45100 4
 N 44900 45100 47500 45100 4
@@ -217,20 +222,15 @@ C 45100 43800 1 0 0 gnd-1.sym
 C 46000 43800 1 0 0 gnd-1.sym
 N 46100 44200 46100 44100 4
 N 45200 44100 45200 44200 4
-C 43800 43400 1 0 1 generic-power.sym
-{
-T 43600 43650 5 10 1 1 0 3 1
-net=+1.8V
-}
 C 43400 43300 1 270 0 capacitor-2.sym
 {
 T 44100 43100 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 43900 43100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C205
 T 44300 43100 5 10 0 0 270 0 1
 symversion=0.1
-T 43800 42600 5 10 1 1 0 0 1
+T 43100 42400 5 10 1 1 0 0 1
 value=10uF
 }
 C 44300 43300 1 270 0 capacitor-1.sym
@@ -238,10 +238,10 @@ C 44300 43300 1 270 0 capacitor-1.sym
 T 45000 43100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 44800 43100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C206
 T 45200 43100 5 10 0 0 270 0 1
 symversion=0.1
-T 44600 42600 5 10 1 1 0 0 1
+T 44000 42400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 45200 43300 1 270 0 capacitor-1.sym
@@ -249,10 +249,10 @@ C 45200 43300 1 270 0 capacitor-1.sym
 T 45900 43100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 45700 43100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C207
 T 46100 43100 5 10 0 0 270 0 1
 symversion=0.1
-T 45500 42600 5 10 1 1 0 0 1
+T 44900 42400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 46100 43300 1 270 0 capacitor-1.sym
@@ -260,10 +260,10 @@ C 46100 43300 1 270 0 capacitor-1.sym
 T 46800 43100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 46600 43100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C208
 T 47000 43100 5 10 0 0 270 0 1
 symversion=0.1
-T 46400 42600 5 10 1 1 0 0 1
+T 45800 42400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 43500 42000 1 0 0 gnd-1.sym
@@ -282,10 +282,10 @@ C 43400 41300 1 270 0 capacitor-2.sym
 T 44100 41100 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 43900 41100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C209
 T 44300 41100 5 10 0 0 270 0 1
 symversion=0.1
-T 43800 40600 5 10 1 1 0 0 1
+T 43100 40400 5 10 1 1 0 0 1
 value=10uF
 }
 C 44300 41300 1 270 0 capacitor-1.sym
@@ -293,10 +293,10 @@ C 44300 41300 1 270 0 capacitor-1.sym
 T 45000 41100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 44800 41100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C210
 T 45200 41100 5 10 0 0 270 0 1
 symversion=0.1
-T 44600 40600 5 10 1 1 0 0 1
+T 44000 40400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 45200 41300 1 270 0 capacitor-1.sym
@@ -304,10 +304,10 @@ C 45200 41300 1 270 0 capacitor-1.sym
 T 45900 41100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 45700 41100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C211
 T 46100 41100 5 10 0 0 270 0 1
 symversion=0.1
-T 45500 40600 5 10 1 1 0 0 1
+T 44900 40400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 46100 41300 1 270 0 capacitor-1.sym
@@ -315,10 +315,10 @@ C 46100 41300 1 270 0 capacitor-1.sym
 T 46800 41100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 46600 41100 5 10 1 1 270 0 1
-refdes=C?
+refdes=C212
 T 47000 41100 5 10 0 0 270 0 1
 symversion=0.1
-T 46400 40600 5 10 1 1 0 0 1
+T 45800 40400 5 10 1 1 0 0 1
 value=0.1uF
 }
 C 43500 40000 1 0 0 gnd-1.sym
@@ -331,11 +331,6 @@ N 46300 40400 46300 40300 4
 N 45400 40300 45400 40400 4
 N 43600 41400 43600 41300 4
 N 43600 41300 47200 41300 4
-C 43400 41400 1 0 0 generic-power.sym
-{
-T 43600 41650 5 10 1 1 0 3 1
-net=+3.3V
-}
 C 52200 42400 1 0 0 gnd-1.sym
 N 52000 45100 52300 45100 4
 N 52300 45100 52300 42700 4
@@ -350,8 +345,8 @@ C 52400 49800 1 0 0 resistor-1.sym
 {
 T 52700 50200 5 10 0 0 0 0 1
 device=RESISTOR
-T 52300 49900 5 10 1 1 0 0 1
-refdes=R?
+T 52100 49900 5 10 1 1 0 0 1
+refdes=R210
 T 53200 49900 5 10 1 1 0 0 1
 value=33
 }
@@ -359,8 +354,8 @@ C 52400 49500 1 0 0 resistor-1.sym
 {
 T 52700 49900 5 10 0 0 0 0 1
 device=RESISTOR
-T 52300 49600 5 10 1 1 0 0 1
-refdes=R?
+T 52100 49600 5 10 1 1 0 0 1
+refdes=R211
 T 53200 49600 5 10 1 1 0 0 1
 value=33
 }
@@ -369,10 +364,14 @@ N 52000 49600 52400 49600 4
 N 53300 49900 54100 49900 4
 N 53300 49600 54100 49600 4
 N 52000 49300 54100 49300 4
+{
+T 52300 49300 5 10 1 1 0 0 1
+netname=DAC_SDIN
+}
 C 54100 49800 1 0 0 output-2.sym
 {
 T 55000 50000 5 10 0 0 0 0 1
-net=dac_lrclk
+net=dac_lrclk:1
 T 54300 50500 5 10 0 0 0 0 1
 device=none
 T 55000 49900 5 10 1 1 0 1 1
@@ -381,7 +380,7 @@ value=DAC_LRCLK
 C 54100 49500 1 0 0 output-2.sym
 {
 T 55000 49700 5 10 0 0 0 0 1
-net=dac_sclk
+net=dac_sclk:1
 T 54300 50200 5 10 0 0 0 0 1
 device=none
 T 55000 49600 5 10 1 1 0 1 1
@@ -390,7 +389,7 @@ value=DAC_SCLK
 C 54100 49200 1 0 0 output-2.sym
 {
 T 55000 49400 5 10 0 0 0 0 1
-net=dac_sdin
+net=dac_sdin:1
 T 54300 49900 5 10 0 0 0 0 1
 device=none
 T 55000 49300 5 10 1 1 0 1 1
@@ -399,7 +398,7 @@ value=DAC_SDIN
 C 43000 53400 1 0 0 input-2.sym
 {
 T 43000 53600 5 10 0 0 0 0 1
-net=dsp_rst
+net=dsp_rst:1
 T 43600 54100 5 10 0 0 0 0 1
 device=none
 T 43500 53500 5 10 1 1 0 7 1
@@ -408,7 +407,7 @@ value=\_DSP_RST\_
 C 43000 53100 1 0 0 input-2.sym
 {
 T 43000 53300 5 10 0 0 0 0 1
-net=scl
+net=scl:1
 T 43600 53800 5 10 0 0 0 0 1
 device=none
 T 43500 53200 5 10 1 1 0 7 1
@@ -417,7 +416,7 @@ value=SCL
 C 44400 51900 1 0 1 output-2.sym
 {
 T 43500 52100 5 10 0 0 0 6 1
-net=dsp_irq
+net=dsp_irq:1
 T 44200 52600 5 10 0 0 0 6 1
 device=none
 T 43500 52000 5 10 1 1 0 7 1
@@ -426,7 +425,7 @@ value=\_DSP_IRQ\_
 C 44400 51600 1 0 1 output-2.sym
 {
 T 43500 51800 5 10 0 0 0 6 1
-net=dsp_bsy
+net=dsp_bsy:1
 T 44200 52300 5 10 0 0 0 6 1
 device=none
 T 43500 51700 5 10 1 1 0 7 1
@@ -435,7 +434,7 @@ value=\_DSP_BSY\_
 C 45400 49800 1 0 0 input-2.sym
 {
 T 45400 50000 5 10 0 0 0 0 1
-net=usbi2s_lrclk
+net=usbi2s_lrclk:1
 T 46000 50500 5 10 0 0 0 0 1
 device=none
 T 45900 49900 5 10 1 1 0 7 1
@@ -444,7 +443,7 @@ value=USBI2S_LRCLK
 C 45400 49500 1 0 0 input-2.sym
 {
 T 45400 49700 5 10 0 0 0 0 1
-net=usbi2s_sclk
+net=usbi2s_sclk:1
 T 46000 50200 5 10 0 0 0 0 1
 device=none
 T 45900 49600 5 10 1 1 0 7 1
@@ -453,7 +452,7 @@ value=USBI2S_SCLK
 C 45400 49200 1 0 0 input-2.sym
 {
 T 45400 49400 5 10 0 0 0 0 1
-net=usbi2s_sdo
+net=usbi2s_sdo:1
 T 46000 49900 5 10 0 0 0 0 1
 device=none
 T 45900 49300 5 10 1 1 0 7 1
@@ -477,12 +476,7 @@ C 57000 42600 1 0 0 header20-2.sym
 T 57250 42350 5 10 0 1 0 0 1
 device=HEADER20
 T 57600 46700 5 10 1 1 0 0 1
-refdes=J?
-}
-N 57000 46000 56000 46000 4
-{
-T 56100 46000 5 10 1 1 0 0 1
-netname=DSP_RST
+refdes=J201
 }
 N 57000 45600 56000 45600 4
 {
@@ -558,7 +552,7 @@ N 59700 42800 59700 44400 4
 C 45400 48900 1 0 0 input-2.sym
 {
 T 45400 49100 5 10 0 0 0 0 1
-net=adci2s_lrclk
+net=adci2s_lrclk:1
 T 46000 49600 5 10 0 0 0 0 1
 device=none
 T 45900 49000 5 10 1 1 0 7 1
@@ -567,7 +561,7 @@ value=ADCI2S_LRCLK
 C 45400 48600 1 0 0 input-2.sym
 {
 T 45400 48800 5 10 0 0 0 0 1
-net=adci2s_sclk
+net=adci2s_sclk:1
 T 46000 49300 5 10 0 0 0 0 1
 device=none
 T 45900 48700 5 10 1 1 0 7 1
@@ -576,7 +570,7 @@ value=ADCI2S_SCLK
 C 45400 48300 1 0 0 input-2.sym
 {
 T 45400 48500 5 10 0 0 0 0 1
-net=adci2s_sdo
+net=adci2s_sdo:1
 T 46000 49000 5 10 0 0 0 0 1
 device=none
 T 45900 48400 5 10 1 1 0 7 1
@@ -630,7 +624,7 @@ along with Headphones.  If not, see <http://www.gnu.org/licenses/>.
 C 45300 46200 1 0 1 output-2.sym
 {
 T 44400 46400 5 10 0 0 0 6 1
-net=dsp_mclk
+net=dsp_mclk:1
 T 45100 46900 5 10 0 0 0 6 1
 device=none
 T 44400 46300 5 10 1 1 0 7 1
@@ -643,14 +637,24 @@ device=CS48540
 T 52800 52900 5 10 0 0 0 0 1
 footprint=LQFP48_12
 T 51500 53900 5 10 1 1 0 0 1
-refdes=U?
+refdes=U202
 }
 C 44400 52500 1 0 1 io-1.sym
 {
 T 43500 52700 5 10 0 0 0 6 1
-net=sda
+net=sda:1
 T 44200 53100 5 10 0 0 0 6 1
 device=none
 T 43500 52600 5 10 1 1 0 7 1
 value=SDA
+}
+C 46000 54900 1 0 0 3.3V-plus-1.sym
+C 44400 51100 1 0 0 3.3V-plus-1.sym
+C 43400 45100 1 0 0 3.3V-plus-1.sym
+C 43400 41400 1 0 0 3.3V-plus-1.sym
+C 43400 43400 1 0 0 1.8V-plus-1.sym
+N 56000 46000 57000 46000 4
+{
+T 56100 46000 5 10 1 1 0 0 1
+netname=DSP_RST
 }
