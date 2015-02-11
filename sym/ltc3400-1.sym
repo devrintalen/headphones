@@ -2,7 +2,7 @@ v 20110115 2
 P 900 2200 900 1900 1 0 0
 {
 T 900 2200 5 10 0 0 270 0 1
-pintype=unknown
+pintype=pwr
 T 755 1800 9 10 1 1 180 6 1
 pinlabel=SW
 T 850 1995 5 10 1 1 90 0 1
@@ -13,7 +13,7 @@ pinseq=1
 P 900 0 900 300 1 0 0
 {
 T 900 0 5 10 0 0 90 0 1
-pintype=unknown
+pintype=pwr
 T 1095 500 9 10 1 1 180 0 1
 pinlabel=GND
 T 850 205 5 10 1 1 90 6 1
@@ -24,7 +24,7 @@ pinseq=2
 P 1800 700 1500 700 1 0 0
 {
 T 1800 700 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pwr
 T 1445 695 9 10 1 1 0 6 1
 pinlabel=FB
 T 1595 745 5 10 1 1 0 0 1
@@ -35,7 +35,7 @@ pinseq=3
 P 0 700 300 700 1 0 0
 {
 T 0 700 5 10 0 0 0 0 1
-pintype=unknown
+pintype=in
 T 355 695 9 10 1 1 0 0 1
 pinlabel=\_SHDN\_
 T 205 745 5 10 1 1 0 6 1
@@ -46,9 +46,9 @@ pinseq=4
 P 1800 1400 1500 1400 1 0 0
 {
 T 1800 1400 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pwr
 T 1445 1395 9 10 1 1 0 6 1
-pinlabel=Vout
+pinlabel=VOUT
 T 1595 1445 5 10 1 1 0 0 1
 pinnumber=5
 T 1800 1400 5 10 0 0 0 6 1
@@ -57,9 +57,9 @@ pinseq=5
 P 0 1400 300 1400 1 0 0
 {
 T 0 1400 5 10 0 0 0 0 1
-pintype=unknown
+pintype=pwr
 T 355 1395 9 10 1 1 0 0 1
-pinlabel=Vin
+pinlabel=VIN
 T 205 1445 5 10 1 1 0 6 1
 pinnumber=6
 T 0 1400 5 10 0 0 0 0 1
