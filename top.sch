@@ -1,10 +1,4 @@
 v 20110115 2
-C 40000 40000 0 0 0 title-B.sym
-C 47300 45000 1 0 0 top.sym
-{
-T 47700 46900 5 10 0 0 0 0 1
-device=none
-}
 T 40200 48000 9 10 1 0 0 0 14
 This file is part of Headphones.
 
@@ -32,3 +26,9 @@ selecting the symbol and typing "Hd".
 
 I'll add a description of the overall schematic here.
 
+C 40000 40000 0 0 0 title-B.sym
+C 47400 45000 1 0 0 top.sym
+{
+T 47800 46900 5 10 0 0 0 0 1
+device=none
+}
