@@ -1,2 +1,2 @@
-schematics input_adc_stage.sch digital_signal_processing.sch output_dac_stage.sch power.sch microcontroller.sch
+schematics input_adc_stage.sch fpga.sch output_dac_stage.sch power.sch usb_input.sch
 output-name board

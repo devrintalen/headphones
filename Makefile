@@ -1,7 +1,8 @@
-sheets = input_adc_stage.sch digital_signal_processing.sch output_dac_stage.sch power.sch microcontroller.sch
+sheets = usb_input.sch input_adc_stage.sch fpga.sch output_dac_stage.sch power.sch
 
 annotate :
-	refdes_renum --pgskip --force $(sheets) 
+#	refdes_renum --pgskip --force $(sheets) 
+	grenum --pagejump $(sheets)
 
 drc :
 	gnetlist -g drc2 -o drc.txt $(sheets)
