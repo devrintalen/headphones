@@ -2,7 +2,7 @@ v 20110115 2
 P 900 1600 600 1600 1 0 0
 {
 T 900 1600 5 10 0 0 0 6 1
-pintype=unknown
+pintype=io
 T 545 1595 9 10 1 1 0 6 1
 pinlabel=D-
 T 695 1645 5 10 1 1 0 0 1
@@ -13,7 +13,7 @@ pinseq=2
 P 900 1200 600 1200 1 0 0
 {
 T 900 1200 5 10 0 0 0 6 1
-pintype=unknown
+pintype=io
 T 545 1195 9 10 1 1 0 6 1
 pinlabel=D+
 T 695 1245 5 10 1 1 0 0 1
@@ -24,7 +24,7 @@ pinseq=3
 P 900 800 600 800 1 0 0
 {
 T 900 800 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pas
 T 545 795 9 10 1 1 0 6 1
 pinlabel=ID
 T 695 845 5 10 1 1 0 0 1
@@ -35,7 +35,7 @@ pinseq=4
 P 900 400 600 400 1 0 0
 {
 T 900 400 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pwr
 T 545 395 9 10 1 1 0 6 1
 pinlabel=GND
 T 695 445 5 10 1 1 0 0 1
@@ -46,7 +46,7 @@ pinseq=5
 P 900 2000 600 2000 1 0 0
 {
 T 900 2000 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pwr
 T 545 1995 9 10 1 1 0 6 1
 pinlabel=VBUS
 T 695 2045 5 10 1 1 0 0 1

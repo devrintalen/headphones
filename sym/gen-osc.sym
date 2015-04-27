@@ -2,7 +2,7 @@ v 20110115 2
 P 0 600 300 600 1 0 0
 {
 T 0 600 5 10 0 0 0 0 1
-pintype=unknown
+pintype=in
 T 355 595 9 10 1 1 0 0 1
 pinlabel=STBY
 T 205 645 5 10 1 1 0 6 1
@@ -13,7 +13,7 @@ pinseq=1
 P 0 200 300 200 1 0 0
 {
 T 0 200 5 10 0 0 0 0 1
-pintype=unknown
+pintype=pwr
 T 355 195 9 10 1 1 0 0 1
 pinlabel=VSS
 T 205 245 5 10 1 1 0 6 1
@@ -24,7 +24,7 @@ pinseq=2
 P 1900 200 1600 200 1 0 0
 {
 T 1900 200 5 10 0 0 0 6 1
-pintype=unknown
+pintype=clk
 T 1545 195 9 10 1 1 0 6 1
 pinlabel=OUT
 T 1695 245 5 10 1 1 0 0 1
@@ -35,7 +35,7 @@ pinseq=3
 P 1900 600 1600 600 1 0 0
 {
 T 1900 600 5 10 0 0 0 6 1
-pintype=unknown
+pintype=pwr
 T 1545 595 9 10 1 1 0 6 1
 pinlabel=VDD
 T 1695 645 5 10 1 1 0 0 1

@@ -57,7 +57,7 @@ pinseq=8
 P 2300 1000 2000 1000 1 0 0
 {
 T 2300 1000 5 10 0 0 0 0 1
-pintype=unknown
+pintype=pas
 T 1945 995 9 10 1 1 0 6 1
 pinlabel=NC
 T 2095 1045 5 10 1 1 0 0 1
@@ -68,7 +68,7 @@ pinseq=7
 P 2300 600 2000 600 1 0 0
 {
 T 2300 600 5 10 0 0 0 0 1
-pintype=unknown
+pintype=pas
 T 1945 595 9 10 1 1 0 6 1
 pinlabel=NC/ORG
 T 2095 645 5 10 1 1 0 0 1
