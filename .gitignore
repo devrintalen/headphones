@@ -2,3 +2,4 @@
 docs/nda
 docs/nda/*
 sym/*.csv
+*.save
