@@ -84,7 +84,7 @@ refdes=U302
 T 67200 59200 5 10 0 0 0 0 1
 device=?
 T 67200 59400 5 10 0 0 0 0 1
-footprint=soic 8
+footprint=SO8
 }
 N 67700 57600 69000 57600 4
 {
@@ -141,9 +141,11 @@ C 65600 54100 1 0 0 gen-osc.sym
 T 67000 55100 5 10 1 1 0 0 1
 refdes=X301
 T 67000 55500 5 10 0 0 0 0 1
-device=?
+device=ASE-32.000MHZ-ET
 T 67000 55700 5 10 0 0 0 0 1
-footprint=?
+footprint=GEN_OSC_3P2_2P5
+T 66600 53900 5 10 1 1 0 0 1
+value=32MHz
 }
 C 67600 55000 1 0 0 3.3V-plus-1.sym
 C 65300 53800 1 0 0 gnd-1.sym
