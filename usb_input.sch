@@ -15,6 +15,8 @@ T 42000 48500 5 10 1 1 0 0 1
 refdes=J101
 T 42100 48500 5 10 0 0 0 0 1
 device=usb-micro-b-connector
+T 41500 46100 5 10 0 1 0 0 1
+footprint=DX4R005JJ2R1800
 }
 C 51600 48900 1 0 0 output-2.sym
 {
@@ -277,7 +279,7 @@ refdes=U103
 T 44400 43000 5 10 0 0 0 0 1
 device=93C46
 T 44400 43400 5 10 0 0 0 0 1
-footprint=SOIC 8
+footprint=SO8
 }
 N 46100 43900 42600 43900 4
 N 42600 43900 42600 42200 4
