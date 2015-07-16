@@ -6,7 +6,7 @@ refdes=U301
 T 58700 59800 5 10 0 0 0 0 1
 device=XC6SLX9-TQG144
 T 58700 60000 5 10 0 0 0 0 1
-footprint=TQG144
+footprint=QFN_50 144 20 0
 }
 C 38000 39700 0 0 0 title-D.sym
 T 65000 40400 9 10 1 0 0 0 1
