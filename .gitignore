@@ -5,3 +5,8 @@ sym/*.csv
 *.save
 *.new.pcb
 *.pcb-
+*.bak
+*-cache.lib
+_saved_*.sch
+library/*.bck
+library/*.dcm

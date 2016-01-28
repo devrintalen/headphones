@@ -1,3 +1,0 @@
-schematics input_adc_stage.sch fpga.sch output_dac_stage.sch power.sch usb_input.sch
-output-name board
-elements-dir ./pkg/newlib
