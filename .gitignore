@@ -4,3 +4,4 @@ docs/nda/*
 sym/*.csv
 *.save
 *.new.pcb
+*.pcb-
