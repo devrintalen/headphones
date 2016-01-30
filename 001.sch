@@ -359,7 +359,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 4700 2850 4700
 Wire Wire Line
-	2350 4800 2850 4800
+	2350 4800 2600 4800
+Wire Wire Line
+	2600 4800 2850 4800
 Wire Wire Line
 	2600 5500 2600 4800
 Connection ~ 2600 4800
