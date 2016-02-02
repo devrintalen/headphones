@@ -4,7 +4,8 @@
 *
 * Full scale differential output is 134% * VA,
 * with VA at 5V this is 6.7V.
-vin aoutp aoutn dc 0 ac 6.7
+vin aoutp aoutn sin(3.35 3.35 20K)
+*vin aoutp aoutn dc 0 ac 6.7
 
 * other supplies
 v12p v12+ 0 dc 12
@@ -30,5 +31,9 @@ r55 7 0	      100Kohm
 r56 7 lineout 580ohm
 
 .include LM741.MOD
+
+* output load and 0v source to measure current
+rload lineout 0 8ohm
+vt  7 lineout
 
 .end
