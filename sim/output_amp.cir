@@ -1,0 +1,34 @@
+*** CS4398 output amp ***
+
+* CS4398 differential output *
+*
+* Full scale differential output is 134% * VA,
+* with VA at 5V this is 6.7V.
+vin aoutp aoutn dc 0 ac 6.7
+
+* other supplies
+v12p v12+ 0 dc 12
+v12n v12- 0 dc -12
+
+r46 aoutp 1 1.58Kohm
+r50 1     5 698ohm
+c56 1     0 6800pF
+r49 1     6 1.27Kohm
+c59 5     6 1800pF
+
+r47 aoutn 2 604ohm
+c55 2     0 0.018uF
+r48 2     3 403ohm
+c57 3     0 100uF
+r51 2     4 267ohm
+c58 4     0 4700pF
+
+x1  5 4 v12+ v12- 6 LM741/NS
+
+c60 6 7       22uF
+r55 7 0	      100Kohm
+r56 7 lineout 580ohm
+
+.include LM741.MOD
+
+.end
