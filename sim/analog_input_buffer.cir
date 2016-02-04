@@ -1,7 +1,8 @@
 *** Analog input filter ***
 
 * Input audio source
-vin inp inn 1.65 dc 1.65 ac
+* See https://en.wikipedia.org/wiki/Line_level
+vin inp inn 0 dc 1.414 ac
 
 * +/- 12V supplies
 v12p V12+ 0 dc 5V
@@ -36,6 +37,13 @@ r14 9 ainn 200ohm
 
 r15 ainp ainn 200ohm
 c16 ainp ainn 2700pF
+
+* load *
+* no information about input pins of cs5381
+
+* let's analyze the frequency response
+.ac dec 100 1 20Meg
+.plot db( v(ainp,ainn) / v(inp,inn) )
 
 .include LM741.MOD
 
