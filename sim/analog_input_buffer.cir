@@ -43,7 +43,7 @@ c16 ainp ainn 2700pF
 
 * let's analyze the frequency response
 .ac dec 100 1 20Meg
-.plot db( v(ainp,ainn) / v(inp,inn) )
+*.plot db( v(ainp,ainn) / v(inp,inn) )
 
 .include LM741.MOD
 
