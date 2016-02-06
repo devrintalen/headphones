@@ -1,12 +1,17 @@
 *** Analog input filter ***
 
+.func LIMIT(x,a,b) {min(max(x, a), b)}
+.func PWR(x,a) {abs(x) ** a}
+.func PWRS(x,a) {sgn(x) * PWR(x,a)}
+.func stp(x) {u(x)}
+
 * Input audio source
 * See https://en.wikipedia.org/wiki/Line_level
 vin inp inn 0 dc 1.414 ac
 
 * +/- 12V supplies
-v12p V12+ 0 dc 12V
-v12n V12- 0 dc -12V
+v12p V12+ 0 dc 5V
+v12n V12- 0 dc -5V
 vqst VQ   0 dc 2.5V
 
 * inp filter
@@ -22,14 +27,14 @@ c12 3 inn 10uF
 r8 3 VQ 10Kohm
 
 * inp opamp and output
-x2a 2 4 V12+ V12- 5 LM741/NS
+x2a 2 4 V12+ V12- 5 OPA1622
 c13 4 5 470pF
 r11 5 6 91ohm
 r9  4 6 634ohm
 r13 6 ainp 200ohm
 
 * inn opamp and output
-x2b 3 7 V12+ V12- 8 LM741/NS
+x2b 3 7 V12+ V12- 8 OPA1622
 C14 7 8 470pF
 r12 8 9 91ohm
 r10 7 9 634ohm
@@ -38,9 +43,13 @@ r14 9 ainn 200ohm
 r15 ainp ainn 200ohm
 c16 ainp ainn 2700pF
 
-.include LM741.MOD
+* load *
+* no information about input pins of cs5381
 
 * let's analyze the frequency response
 .ac dec 100 1 20Meg
+*.plot db( v(ainp,ainn) / v(inp,inn) )
+
+.include OPA1622.txt
 
 .end
