@@ -1,0 +1,15 @@
+*** Ideal input filter ***
+
+* Input audio source
+* See https://en.wikipedia.org/wiki/Line_level
+vin inp inn 0 dc 1.414 ac
+
+.include analog_input_buffer.cir
+x2a 2 4 V12+ V12- 5 LM741/NS
+x2b 3 7 V12+ V12- 8 LM741/NS
+.include LM741.MOD
+
+* let's analyze the frequency response
+.ac dec 100 1 20Meg
+
+.end
