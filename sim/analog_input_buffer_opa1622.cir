@@ -10,8 +10,8 @@
 vin inp inn 0 dc 1.414 ac
 
 * +/- 12V supplies
-v12p V12+ 0 dc 5V
-v12n V12- 0 dc -5V
+v12p V12+ 0 dc 12V
+v12n V12- 0 dc -12V
 vqst VQ   0 dc 2.5V
 
 * inp filter
