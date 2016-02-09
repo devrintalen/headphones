@@ -1,9 +1,8 @@
-tests = adc_ideal.data adc_opamp.data
+adc:
+	ngspice adc_ideal.cir
+	ngspice adc_opamp.cir
 
-%.data : %.cir
-	ngspice -b -r $@ -o $*.log $<
-
-all: $(tests)
+all: adc
 
 clean:
-	rm -f *.data *.log
+	rm -f *.data *.log *.plt *.eps
