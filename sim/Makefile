@@ -1,6 +1,7 @@
 adc:
 	ngspice adc_ideal.cir
 	ngspice adc_opamp.cir
+	ngspice adc_precise.cir
 
 all: adc
 
