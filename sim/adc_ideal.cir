@@ -34,6 +34,7 @@ ac dec 1K 1 20Meg
 gnuplot adc_ideal_ac db( v(ainp,ainn) / v(inp,inn) )
 tran 10n 0.2m
 gnuplot adc_ideal_tran v(ainp,ainn) v(inp,inn)
+quit
 .endc
 
 .end
