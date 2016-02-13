@@ -8,7 +8,7 @@ CS5381 input filter (real op-amp and real caps)
 * c16    : C2012C0G1H272J060AA
 * 
 
-vin inp inn 0 dc 1.414 ac sin(0 1.414 10K)
+vin inp inn 0 dc 1.414 ac sin(0 1.414 1K)
 v12p V12+ 0 dc 12V
 v12n V12- 0 dc -12V
 vqst VQ   0 dc 2.5V
@@ -49,9 +49,10 @@ x2b 3 7 V12+ V12- 8 OPA1622
 
 .control
 set noaskquit
-ac dec 1K 1 20Meg
+ac dec 100 1 20Meg
 wrdata adc_precise_ac db( v(ainp,ainn) / v(inp,inn) )
-tran 100n 0.2m
+tran 10u 20m 0m 10u
+fourier 1K v(ainp,ainn)
 wrdata adc_precise_tran v(ainp,ainn) v(inp,inn)
 quit
 .endc
