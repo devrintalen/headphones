@@ -2,7 +2,7 @@ CS5381 input filter (real op-amp and real caps)
 
 * Capacitor selections
 *
-* c11/12 : ????
+* c11/12 : C2012X7R1A106K125AC
 * c13/14 : C2012C0G2W471J060AA
 * c15    : C2012X7R1H104K085AA
 * c16    : C2012C0G1H272J060AA
@@ -14,11 +14,9 @@ v12n V12- 0 dc -12V
 vqst VQ   0 dc 2.5V
 
 r5 inp 0 100Kohm
-c11 2 inp 10uF
 r7 2 VQ 10Kohm
 r99 inn 0 0ohm
 r6 inn 0 100Kohm
-c12 3 inn 10uF
 r8 3 VQ 10Kohm
 r11 5 6 91ohm
 r9  4 6 634ohm
@@ -28,17 +26,17 @@ r10 7 9 634ohm
 r14 9 ainn 200ohm
 r15 ainp ainn 200ohm
 
-x13 4 5 C2012C0G2W471J060AA_p
-x14 7 8 C2012C0G2W471J060AA_p
-*x15 VQ 0 C2012X7R1H104K085AA_p
-* The above model has no DC bias characteristic, so I've cribbed
-* it from the webpage.
-c15 VQ 0 0.084uF
+x11 2    inp  C2012X7R1A106K125AC_p
+x12 3    inn  C2012X7R1A106K125AC_p
+x13 4    5    C2012C0G2W471J060AA_p
+x14 7    8    C2012C0G2W471J060AA_p
+x15 VQ   0    C2012X7R1H104K085AA_p
 x16 ainp ainn C2012C0G1H272J060AA_p
 
 .include C2012C0G1H272J060AA_p.mod
 .include C2012C0G2W471J060AA_p.mod
 .include C2012X7R1H104K085AA_p.mod
+.include C2012X7R1A106K125AC_p.mod
 
 x2a 2 4 V12+ V12- 5 OPA1622
 x2b 3 7 V12+ V12- 8 OPA1622
