@@ -9,9 +9,9 @@ CS5381 input filter (real op-amp and real caps)
 * 
 
 vin inp inn 0 dc 1.414 ac sin(0 1.414 1K)
-v12p V12+ 0 dc 12V
-v12n V12- 0 dc -12V
-vqst VQ   0 dc 2.5V
+v12p V12+ 0 dc 12V trnoise(10m 10u 0 0)
+v12n V12- 0 dc -12V trnoise(10m 10u 0 0)
+vqst VQ   0 dc 2.5V trnoise(10m 10u 0 0)
 
 r5 inp 0 100Kohm
 r7 2 VQ 10Kohm
