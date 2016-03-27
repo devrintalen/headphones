@@ -4,8 +4,8 @@ set grid
 
 set title "Input Buffer 1KHz Signal Response"
 
-set terminal png size 1024,768
-set output "adc_tran.png"
+#set terminal png size 1024,768
+#set output "adc_tran.png"
 
 set xrange [0:0.005]
 set yrange [-1.9:1.9]

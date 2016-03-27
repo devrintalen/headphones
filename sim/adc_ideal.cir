@@ -35,6 +35,9 @@ wrdata adc_ideal_ac db( v(ainp,ainn) / v(inp,inn) )
 tran 10u 20m 0m 10u
 fourier 1K v(ainp,ainn)
 wrdata adc_ideal_tran v(ainp,ainn) v(inp,inn)
+let vout = v(ainp,ainn)
+spec 20 20K 50 vout
+wrdata adc_ideal_spec mag(vout)
 quit
 .endc
 
