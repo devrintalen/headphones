@@ -8,5 +8,5 @@ sym/*.csv
 *.bak
 *-cache.lib
 _saved_*.sch
-library/*.bck
-library/*.dcm
+pcb/library/*.bck
+pcb/library/*.dcm
