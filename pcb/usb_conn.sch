@@ -227,17 +227,6 @@ F 3 "" H 4300 4750 50  0000 C CNN
 	1    4300 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C108
-U 1 1 5728E974
-P 4500 4350
-F 0 "C108" H 4525 4450 50  0000 L CNN
-F 1 "C" H 4525 4250 50  0000 L CNN
-F 2 "" H 4538 4200 50  0000 C CNN
-F 3 "" H 4500 4350 50  0000 C CNN
-	1    4500 4350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5100 3000 5300 3000
 Wire Wire Line
@@ -318,4 +307,17 @@ Connection ~ 4750 4350
 Wire Wire Line
 	4350 4350 4300 4350
 Connection ~ 4300 4350
+$Comp
+L R R104
+U 1 1 57291A33
+P 4500 4350
+F 0 "R104" V 4580 4350 50  0000 C CNN
+F 1 "0" V 4500 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4430 4350 50  0001 C CNN
+F 3 "" H 4500 4350 50  0000 C CNN
+F 4 "Panasonic" V 4500 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3GEY0R00V" V 4500 4350 60  0001 C CNN "Manufacturer Part Number"
+	1    4500 4350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
