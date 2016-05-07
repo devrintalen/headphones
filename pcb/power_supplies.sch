@@ -53,7 +53,7 @@ F 1 "LTC3521" H 3800 3900 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 3800 3950 60  0001 C CNN
 F 3 "" H 3800 3950 60  0000 C CNN
 F 4 "Linear Technology" H 3800 3950 60  0001 C CNN "Manufacturer"
-F 5 "LTC3521IFE" H 3800 3950 60  0001 C CNN "Manufacturer Part Number"
+F 5 "LTC3521IFE#PBF" H 3800 3950 60  0001 C CNN "Manufacturer Part Number"
 	1    3800 3950
 	1    0    0    -1  
 $EndComp
@@ -660,7 +660,7 @@ F 1 "LT1086CT-12" H 14200 1150 60  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 13900 1150 60  0001 C CNN
 F 3 "" H 13900 1150 60  0000 C CNN
 F 4 "Linear Technology" H 13900 1100 60  0001 C CNN "Manufacturer"
-F 5 "LT1086CT-12" H 13900 1100 60  0001 C CNN "Manufacturer Part Number"
+F 5 "LT1086CT-12#PBF" H 13900 1100 60  0001 C CNN "Manufacturer Part Number"
 	1    13900 1100
 	1    0    0    -1  
 $EndComp
@@ -673,7 +673,7 @@ F 1 "LT1086CT-5" H 14200 2100 60  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 13900 2100 60  0001 C CNN
 F 3 "" H 13900 2100 60  0000 C CNN
 F 4 "Linear Technology" H 13900 2050 60  0001 C CNN "Manufacturer"
-F 5 "LT1086CT-5" H 13900 2050 60  0001 C CNN "Manufacturer Part Number"
+F 5 "LT1086CT-5#PBF" H 13900 2050 60  0001 C CNN "Manufacturer Part Number"
 	1    13900 2050
 	1    0    0    -1  
 $EndComp
@@ -2013,7 +2013,7 @@ F 1 "LT3015ET-ADJ" H 14050 3250 60  0000 C CNN
 F 2 "TO_SOT_Packages_THT:Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B" H 13900 3250 60  0001 C CNN
 F 3 "" H 13900 3250 60  0000 C CNN
 F 4 "Linear Technology" H 13900 3200 60  0001 C CNN "Manufacturer"
-F 5 "LTC3015ET" H 13900 3200 60  0001 C CNN "Manufacturer Part Number"
+F 5 "LT3015IT#PBF" H 13900 3200 60  0001 C CNN "Manufacturer Part Number"
 	1    13900 3200
 	1    0    0    -1  
 $EndComp
@@ -2111,7 +2111,7 @@ F 1 "LT3015ET-ADJ" H 14050 4650 60  0000 C CNN
 F 2 "TO_SOT_Packages_THT:Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B" H 13900 4650 60  0001 C CNN
 F 3 "" H 13900 4650 60  0000 C CNN
 F 4 "Linear Technology" H 13900 4600 60  0001 C CNN "Manufacturer"
-F 5 "LTC3015ET" H 13900 4600 60  0001 C CNN "Manufacturer Part Number"
+F 5 "LT3015IT#PBF" H 13900 4600 60  0001 C CNN "Manufacturer Part Number"
 	1    13900 4600
 	1    0    0    -1  
 $EndComp

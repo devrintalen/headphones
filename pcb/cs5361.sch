@@ -266,7 +266,7 @@ F 1 "CS5361" H 6800 3650 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 6800 3500 50  0001 C CNN
 F 3 "" H 6800 3500 50  0000 C CNN
 F 4 "Cirrus Logic" H 6800 3700 60  0001 C CNN "Manufacturer"
-F 5 "CS5381" H 6800 3700 60  0001 C CNN "Manufacturer Part Number"
+F 5 "CS5381-KSZ" H 6800 3700 60  0001 C CNN "Manufacturer Part Number"
 	1    6800 3700
 	1    0    0    -1  
 $EndComp

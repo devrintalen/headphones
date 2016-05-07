@@ -53,7 +53,7 @@ F 1 "FT2232D" H 6050 3750 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 6050 3800 60  0001 C CNN
 F 3 "" H 6050 3800 60  0000 C CNN
 F 4 "FTDI" H 6050 3800 60  0001 C CNN "Manufacturer"
-F 5 "FT2232D" H 6050 3800 60  0001 C CNN "Manufacturer Part Number"
+F 5 "FT2232D-REEL" H 6050 3800 60  0001 C CNN "Manufacturer Part Number"
 	1    6050 3800
 	1    0    0    -1  
 $EndComp

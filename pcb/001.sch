@@ -224,7 +224,7 @@ F 1 "CONN_BATT" V 9600 4350 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 9500 4350 50  0001 C CNN
 F 3 "" H 9500 4350 50  0000 C CNN
 F 4 "JST" H 9500 4350 60  0001 C CNN "Manufacturer"
-F 5 "B2B-PH-K-S" H 9500 4350 60  0001 C CNN "Manufacturer Part Number"
+F 5 "B2B-PH-K-S(LF)(SN)" H 9500 4350 60  0001 C CNN "Manufacturer Part Number"
 	1    9500 4350
 	0    -1   -1   0   
 $EndComp
