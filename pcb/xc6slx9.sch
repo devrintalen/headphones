@@ -29,14 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
-LIBS:001-cache
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 9 9
-Title "Spartan6 FPGA DSP"
-Date ""
+Title "Spartan6 FPGA Audio DSP"
+Date "2016-05-07"
 Rev "1"
 Comp ""
 Comment1 ""

@@ -29,15 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
-LIBS:001-cache
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 6 9
 Title "Power Supplies and Charger"
-Date ""
-Rev ""
+Date "2016-05-07"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

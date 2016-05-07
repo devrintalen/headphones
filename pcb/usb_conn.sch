@@ -29,15 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
-LIBS:001-cache
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title "USB Connector and Filtering"
-Date ""
-Rev ""
+Date "2016-05-07"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

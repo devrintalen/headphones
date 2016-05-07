@@ -29,15 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
-LIBS:001-cache
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
-Title "TEXAS INSTRUMENTS REFERENCE DAC AND AMP"
-Date ""
-Rev ""
+Title "Texas Instruments HiFi Reference DAC and Amp"
+Date "2016-05-07"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

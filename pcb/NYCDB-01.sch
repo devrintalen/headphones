@@ -29,14 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
-LIBS:001-cache
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title "Headphones"
-Date ""
+Title "NYC Development Board"
+Date "2016-05-07"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -122,7 +122,7 @@ U 1 1 56A64EBE
 P 2000 2450
 F 0 "J1" H 2000 2550 60  0000 C CNN
 F 1 "AUDIO_JACK" H 2000 1900 60  0000 C CNN
-F 2 "headphones:SJ1-351XN" H 2000 2650 60  0000 C CNN
+F 2 "headphones:SJ1-351XN" H 2000 2650 60  0001 C CNN
 F 3 "" H 2000 2650 60  0000 C CNN
 F 4 "CUI" H 2000 2450 60  0001 C CNN "Manufacturer"
 F 5 "SJ1-3513N" H 2000 2450 60  0001 C CNN "Manufacturer Part Number"
