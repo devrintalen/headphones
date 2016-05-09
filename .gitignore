@@ -6,6 +6,7 @@ sym/*.csv
 *.new.pcb
 *.pcb-
 *.bak
+*.kicad_pcb-bak
 *-cache.lib
 _saved_*.sch
 pcb/library/*.bck
