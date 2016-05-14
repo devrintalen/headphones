@@ -7,7 +7,7 @@ adc:
 
 dac:
 	ngspice dac_cs4398.cir
-	gnuplot dac_cs4398_tran.p
+	gnuplot -c dac_cs4398_tran.p
 
 all: adc
 

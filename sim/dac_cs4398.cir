@@ -1,0 +1,65 @@
+CS4398 filter (ideal)
+
+* Differential output is nominally 136% * VA (5V)
+vin outp outn dc 0 ac 6.8 sin(0 6.8 1K)
+
+* Voltage sources and decoupling
+v12p   V12+	0	dc 12V
+v12n   V12-	0	dc -12V
+c04    V12+	0	0.01u
+c05    V12-	0	0.01u
+
+* Node 1
+r01    outn	1	1.58K
+c01    1	0	6800p
+r02    1	5	698
+r03    1	6	1.27K
+
+* Node 2
+r04    outp	2	604
+r05    2	0	0.018u
+r06    2	3	487
+r07    2	4	267
+
+* Node 3
+r08    3	0	100u
+
+* Node 4
+c02    4	0	4700p
+
+* Node 5
+c03    5	6	1800pF
+
+* Node 7
+c06    6	7	22u
+r09    7	0	100K
+r10    7	out	580
+
+x1a    4	5	V12+	V12-	6	LM741/NS
+
+* Load
+rl     out	outmeas	8
+vmeas  outmeas	0	dc 0
+
+.include LM741.MOD
+
+.control
+set noaskquit
+
+alter rl 8
+tran 100n 20m
+wrdata dac_cs4398_tran_8 v(out) v(outp,outn)
+wrdata dac_cs4398_tran_8_current i(vmeas)
+alter rl 32
+tran 100n 20m
+wrdata dac_cs4398_tran_32 v(out) v(outp,outn)
+wrdata dac_cs4398_tran_32_current i(vmeas)
+alter rl 1K
+tran 100n 20m
+wrdata dac_cs4398_tran_1k v(out) v(outp,outn)
+wrdata dac_cs4398_tran_1k_current i(vmeas)
+
+quit
+.endc
+
+.end
