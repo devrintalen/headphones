@@ -490,7 +490,7 @@ F 3 "" H 7750 4000 50  0000 C CNN
 F 4 "Panasonic" V 7750 4000 60  0001 C CNN "Manufacturer"
 F 5 "ERJ-3EKF68R0V" V 7750 4000 60  0001 C CNN "Manufacturer Part Number"
 	1    7750 4000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R3
@@ -503,7 +503,7 @@ F 3 "" H 7750 4100 50  0000 C CNN
 F 4 "Panasonic" V 7750 4100 60  0001 C CNN "Manufacturer"
 F 5 "ERJ-3EKF68R0V" V 7750 4100 60  0001 C CNN "Manufacturer Part Number"
 	1    7750 4100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R4
@@ -516,7 +516,7 @@ F 3 "" H 7750 4300 50  0000 C CNN
 F 4 "Panasonic" V 7750 4300 60  0001 C CNN "Manufacturer"
 F 5 "ERJ-3EKF68R0V" V 7750 4300 60  0001 C CNN "Manufacturer Part Number"
 	1    7750 4300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C7
