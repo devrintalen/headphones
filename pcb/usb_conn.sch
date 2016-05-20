@@ -328,4 +328,8 @@ F 3 "" H 4750 4750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 4750 4750
+Text Label 5150 3700 0    60   ~ 0
+CON_D-
+Text Label 5150 3800 0    60   ~ 0
+CON_D+
 $EndSCHEMATC
