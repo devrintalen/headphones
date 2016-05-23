@@ -135,19 +135,6 @@ D+
 Text HLabel 6900 3700 2    60   BiDi ~ 0
 D-
 $Comp
-L R R58
-U 1 1 56A8E4E2
-P 6500 3700
-F 0 "R58" V 6550 3950 50  0000 C CNN
-F 1 "27" V 6500 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6430 3700 50  0001 C CNN
-F 3 "" H 6500 3700 50  0000 C CNN
-F 4 "Panasonic" V 6500 3700 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF27R0V" V 6500 3700 60  0001 C CNN "Manufacturer Part Number"
-	1    6500 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L PWR_FLAG #FLG0121
 U 1 1 571455C7
 P 7250 3000
@@ -196,9 +183,9 @@ Wire Wire Line
 Connection ~ 6400 3000
 Connection ~ 6800 3000
 Wire Wire Line
-	6650 3800 6900 3800
+	4600 3800 6900 3800
 Wire Wire Line
-	6650 3700 6900 3700
+	4600 3700 6900 3700
 Connection ~ 7250 3000
 Wire Wire Line
 	4200 4200 4200 4800
@@ -211,11 +198,7 @@ Connection ~ 5100 4750
 Wire Wire Line
 	5100 3000 5100 4100
 Wire Wire Line
-	4600 3700 6350 3700
-Wire Wire Line
 	5800 3700 5800 4100
-Wire Wire Line
-	4600 3800 6350 3800
 Wire Wire Line
 	6000 3800 6000 4100
 Connection ~ 5800 3700
@@ -271,19 +254,6 @@ F 5 "GRM188R61C104KA01" H 6400 3200 60  0001 C CNN "Manufacturer Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R59
-U 1 1 572C16A2
-P 6500 3800
-F 0 "R59" V 6550 4050 50  0000 C CNN
-F 1 "27" V 6500 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6430 3800 50  0001 C CNN
-F 3 "" H 6500 3800 50  0000 C CNN
-F 4 "Panasonic" V 6500 3800 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF27R0V" V 6500 3800 60  0001 C CNN "Manufacturer Part Number"
-	1    6500 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L PWR_FLAG #FLG0123
 U 1 1 572E8DF0
 P 4650 4750
@@ -295,10 +265,6 @@ F 3 "" H 4650 4750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 4650 4750
-Text Label 5150 3700 0    60   ~ 0
-CON_D-
-Text Label 5150 3800 0    60   ~ 0
-CON_D+
 $Comp
 L TVS_SOT23 D17
 U 1 1 573FE61B
