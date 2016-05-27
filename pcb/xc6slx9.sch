@@ -183,27 +183,27 @@ Connection ~ 13350 3100
 Wire Wire Line
 	13350 3300 13450 3300
 Connection ~ 13350 3200
-Text HLabel 4250 3200 0    60   Output ~ 0
+Text HLabel 4250 2700 0    60   Output ~ 0
 ADC_RST
-Text HLabel 4250 2700 0    60   Input ~ 0
+Text HLabel 4250 2600 0    60   Input ~ 0
 ADC_OVFL
 Text HLabel 4250 2200 0    60   Output ~ 0
 ADC_HPF
-Text HLabel 4250 3100 0    60   Input ~ 0
-ADC_LRCLK
 Text HLabel 4250 3000 0    60   Input ~ 0
+ADC_LRCLK
+Text HLabel 4250 3100 0    60   Input ~ 0
 ADC_SCLK
-Text HLabel 4250 2900 0    60   Output ~ 0
+Text HLabel 4250 3200 0    60   Output ~ 0
 ADC_MCLK
 Text HLabel 4250 2000 0    60   Input ~ 0
 ADC_SDO
 Text HLabel 4250 2300 0    60   Output ~ 0
 ADC_I2S_LJ
-Text HLabel 4250 2400 0    60   Output ~ 0
+Text HLabel 4250 2900 0    60   Output ~ 0
 ADC_MS
-Text HLabel 4250 2500 0    60   Output ~ 0
+Text HLabel 4250 2400 0    60   Output ~ 0
 ADC_M0
-Text HLabel 4250 2600 0    60   Output ~ 0
+Text HLabel 4250 2500 0    60   Output ~ 0
 ADC_M1
 Text HLabel 4250 2100 0    60   Output ~ 0
 ADC_MDIV
@@ -230,11 +230,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3100 5300 3100
 Wire Wire Line
-	4250 3200 5300 3200
-Wire Wire Line
-	4750 2900 5300 2900
-Wire Wire Line
-	4250 2900 4450 2900
+	4250 2900 5300 2900
 $Comp
 L GND #PWR0164
 U 1 1 56A4827F
@@ -1314,14 +1310,14 @@ $EndComp
 $Comp
 L R R82
 U 1 1 57183388
-P 4600 2900
-F 0 "R82" V 4550 2700 50  0000 C CNN
-F 1 "68" V 4600 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4530 2900 50  0001 C CNN
-F 3 "" H 4600 2900 50  0000 C CNN
-F 4 "Panasonic" V 4600 2900 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 4600 2900 60  0001 C CNN "Manufacturer Part Number"
-	1    4600 2900
+P 4600 3200
+F 0 "R82" V 4550 3000 50  0000 C CNN
+F 1 "68" V 4600 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4530 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0000 C CNN
+F 4 "Panasonic" V 4600 3200 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 4600 3200 60  0001 C CNN "Manufacturer Part Number"
+	1    4600 3200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1848,4 +1844,8 @@ F 5 "GRM188R61C104KA01" H 1500 7800 60  0001 C CNN "Manufacturer Part Number"
 	1    1500 7800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4250 3200 4450 3200
+Wire Wire Line
+	4750 3200 5300 3200
 $EndSCHEMATC
