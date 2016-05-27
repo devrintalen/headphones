@@ -183,11 +183,11 @@ Connection ~ 13350 3100
 Wire Wire Line
 	13350 3300 13450 3300
 Connection ~ 13350 3200
-Text HLabel 4250 2000 0    60   Output ~ 0
+Text HLabel 4250 3200 0    60   Output ~ 0
 ADC_RST
-Text HLabel 4250 2100 0    60   Input ~ 0
+Text HLabel 4250 2700 0    60   Input ~ 0
 ADC_OVFL
-Text HLabel 4250 2400 0    60   Output ~ 0
+Text HLabel 4250 2200 0    60   Output ~ 0
 ADC_HPF
 Text HLabel 4250 3100 0    60   Input ~ 0
 ADC_LRCLK
@@ -195,17 +195,17 @@ Text HLabel 4250 3000 0    60   Input ~ 0
 ADC_SCLK
 Text HLabel 4250 2900 0    60   Output ~ 0
 ADC_MCLK
-Text HLabel 4250 3200 0    60   Input ~ 0
+Text HLabel 4250 2000 0    60   Input ~ 0
 ADC_SDO
-Text HLabel 4250 2200 0    60   Output ~ 0
-ADC_I2S_LJ
 Text HLabel 4250 2300 0    60   Output ~ 0
+ADC_I2S_LJ
+Text HLabel 4250 2400 0    60   Output ~ 0
 ADC_MS
 Text HLabel 4250 2500 0    60   Output ~ 0
 ADC_M0
 Text HLabel 4250 2600 0    60   Output ~ 0
 ADC_M1
-Text HLabel 4250 2700 0    60   Output ~ 0
+Text HLabel 4250 2100 0    60   Output ~ 0
 ADC_MDIV
 Wire Wire Line
 	4250 2000 5300 2000
