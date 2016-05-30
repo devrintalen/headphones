@@ -208,8 +208,6 @@ ADC_M1
 Text HLabel 4250 2100 0    60   Output ~ 0
 ADC_MDIV
 Wire Wire Line
-	4250 2000 5300 2000
-Wire Wire Line
 	4250 2100 5300 2100
 Wire Wire Line
 	4250 2200 5300 2200
@@ -225,10 +223,6 @@ Wire Wire Line
 	4250 2700 5300 2700
 Text HLabel 7750 2900 0    60   Output ~ 0
 DAC_RST
-Wire Wire Line
-	4250 3000 5300 3000
-Wire Wire Line
-	4250 3100 5300 3100
 Wire Wire Line
 	4250 2900 5300 2900
 $Comp
@@ -1234,27 +1228,17 @@ Wire Wire Line
 Wire Wire Line
 	7750 2500 8700 2500
 Wire Wire Line
-	7750 2400 8050 2400
+	7750 2400 8700 2400
 Wire Wire Line
-	8350 2400 8700 2400
-Wire Wire Line
-	8700 2300 8350 2300
-Wire Wire Line
-	7750 2300 8050 2300
+	7750 2300 8700 2300
 Wire Wire Line
 	7750 2200 8050 2200
 Wire Wire Line
-	7750 2100 8050 2100
+	7750 2100 8700 2100
 Wire Wire Line
-	7750 2000 8050 2000
+	7750 2000 8700 2000
 Wire Wire Line
-	7750 1900 8050 1900
-Wire Wire Line
-	8350 1900 8700 1900
-Wire Wire Line
-	8350 2000 8700 2000
-Wire Wire Line
-	8350 2100 8700 2100
+	7750 1900 8700 1900
 Wire Wire Line
 	8350 2200 8700 2200
 NoConn ~ 8700 3100
@@ -1308,45 +1292,6 @@ F 5 "ERJ-3EKF68R0V" V 3150 2800 60  0001 C CNN "Manufacturer Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R87
-U 1 1 5718481E
-P 8200 1900
-F 0 "R87" V 8150 1700 50  0000 C CNN
-F 1 "68" V 8200 1900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 1900 50  0001 C CNN
-F 3 "" H 8200 1900 50  0000 C CNN
-F 4 "Panasonic" V 8200 1900 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 8200 1900 60  0001 C CNN "Manufacturer Part Number"
-	1    8200 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L R R88
-U 1 1 57184947
-P 8200 2000
-F 0 "R88" V 8150 1800 50  0000 C CNN
-F 1 "68" V 8200 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 2000 50  0001 C CNN
-F 3 "" H 8200 2000 50  0000 C CNN
-F 4 "Panasonic" V 8200 2000 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 8200 2000 60  0001 C CNN "Manufacturer Part Number"
-	1    8200 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L R R89
-U 1 1 571849FD
-P 8200 2100
-F 0 "R89" V 8150 1900 50  0000 C CNN
-F 1 "68" V 8200 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 2100 50  0001 C CNN
-F 3 "" H 8200 2100 50  0000 C CNN
-F 4 "Panasonic" V 8200 2100 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 8200 2100 60  0001 C CNN "Manufacturer Part Number"
-	1    8200 2100
-	0    1    1    0   
-$EndComp
-$Comp
 L R R90
 U 1 1 57184AB6
 P 8200 2200
@@ -1357,32 +1302,6 @@ F 3 "" H 8200 2200 50  0000 C CNN
 F 4 "Panasonic" V 8200 2200 60  0001 C CNN "Manufacturer"
 F 5 "ERJ-3EKF68R0V" V 8200 2200 60  0001 C CNN "Manufacturer Part Number"
 	1    8200 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R92
-U 1 1 57184B72
-P 8200 2300
-F 0 "R92" V 8150 2100 50  0000 C CNN
-F 1 "68" V 8200 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 2300 50  0001 C CNN
-F 3 "" H 8200 2300 50  0000 C CNN
-F 4 "Panasonic" V 8200 2300 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 8200 2300 60  0001 C CNN "Manufacturer Part Number"
-	1    8200 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L R R93
-U 1 1 57184C31
-P 8200 2400
-F 0 "R93" V 8150 2200 50  0000 C CNN
-F 1 "68" V 8200 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8130 2400 50  0001 C CNN
-F 3 "" H 8200 2400 50  0000 C CNN
-F 4 "Panasonic" V 8200 2400 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3EKF68R0V" V 8200 2400 60  0001 C CNN "Manufacturer Part Number"
-	1    8200 2400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1833,4 +1752,55 @@ F 5 "GRM188R61C104KA01" H 1500 7800 60  0001 C CNN "Manufacturer Part Number"
 $EndComp
 Wire Wire Line
 	4250 3200 5300 3200
+$Comp
+L R R3
+U 1 1 574D9505
+P 4700 3000
+F 0 "R3" V 4650 2800 50  0000 C CNN
+F 1 "68" V 4700 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0000 C CNN
+F 4 "Panasonic" V 4700 3000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 4700 3000 60  0001 C CNN "Manufacturer Part Number"
+	1    4700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 574D950E
+P 4700 3100
+F 0 "R4" V 4650 2900 50  0000 C CNN
+F 1 "68" V 4700 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0000 C CNN
+F 4 "Panasonic" V 4700 3100 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 4700 3100 60  0001 C CNN "Manufacturer Part Number"
+	1    4700 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3000 4550 3000
+Wire Wire Line
+	4250 3100 4550 3100
+Wire Wire Line
+	4850 3000 5300 3000
+Wire Wire Line
+	4850 3100 5300 3100
+$Comp
+L R R2
+U 1 1 574DAAB4
+P 4700 2000
+F 0 "R2" V 4650 1800 50  0000 C CNN
+F 1 "68" V 4700 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4630 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0000 C CNN
+F 4 "Panasonic" V 4700 2000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 4700 2000 60  0001 C CNN "Manufacturer Part Number"
+	1    4700 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2000 5300 2000
+Wire Wire Line
+	4550 2000 4250 2000
 $EndSCHEMATC

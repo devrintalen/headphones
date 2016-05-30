@@ -848,31 +848,31 @@ Connection ~ 2600 1950
 Connection ~ 2900 1950
 Wire Wire Line
 	3250 1900 3250 2600
-Text HLabel 2300 3100 0    60   Input ~ 0
+Text HLabel 1700 3100 0    60   Input ~ 0
 DAC_LRCK
 Wire Wire Line
-	2300 3100 2600 3100
-Text HLabel 2300 3200 0    60   Input ~ 0
+	2150 3100 2600 3100
+Text HLabel 1700 3200 0    60   Input ~ 0
 DAC_BCK
-Text HLabel 2300 3300 0    60   Input ~ 0
+Text HLabel 1700 3300 0    60   Input ~ 0
 DAC_DATA
-Text HLabel 2300 3500 0    60   Input ~ 0
+Text HLabel 1700 3500 0    60   Input ~ 0
 DAC_RST
 Wire Wire Line
-	2300 3200 2600 3200
+	2150 3200 2600 3200
 Wire Wire Line
-	2300 3300 2600 3300
+	2150 3300 2600 3300
 Wire Wire Line
-	2300 3500 2600 3500
-Text HLabel 2300 3700 0    60   Output ~ 0
+	1700 3500 2600 3500
+Text HLabel 1700 3700 0    60   Output ~ 0
 DAC_MDO
-Text HLabel 2300 3800 0    60   Input ~ 0
+Text HLabel 1700 3800 0    60   Input ~ 0
 DAC_MDI
-Text HLabel 2300 3900 0    60   Input ~ 0
+Text HLabel 1700 3900 0    60   Input ~ 0
 DAC_MC
-Text HLabel 2300 4000 0    60   Input ~ 0
+Text HLabel 1700 4000 0    60   Input ~ 0
 DAC_MS
-Text HLabel 2300 4200 0    60   Input ~ 0
+Text HLabel 1700 4200 0    60   Input ~ 0
 DAC_MSEL
 Text HLabel 1250 2650 0    60   Input ~ 0
 DAC_SCK_EN
@@ -931,23 +931,23 @@ Wire Wire Line
 	950  1900 950  2000
 Connection ~ 950  1950
 Wire Wire Line
-	2300 3700 2600 3700
+	1700 3700 2600 3700
 Wire Wire Line
-	2300 3800 2600 3800
+	2150 3800 2600 3800
 Wire Wire Line
-	2300 3900 2600 3900
+	2150 3900 2600 3900
 Wire Wire Line
-	2300 4000 2600 4000
+	1700 4000 2600 4000
 Wire Wire Line
-	2300 4200 2600 4200
-Text HLabel 2300 4400 0    60   Output ~ 0
+	1700 4200 2600 4200
+Text HLabel 1700 4400 0    60   Output ~ 0
 DAC_ZEROL
-Text HLabel 2300 4500 0    60   Output ~ 0
+Text HLabel 1700 4500 0    60   Output ~ 0
 DAC_ZEROR
 Wire Wire Line
-	2300 4400 2600 4400
+	1700 4400 2600 4400
 Wire Wire Line
-	2300 4500 2600 4500
+	1700 4500 2600 4500
 Text Notes 9850 700  0    60   ~ 0
 OPA4134 DECOUPLING
 Text Notes 9850 2050 0    60   ~ 0
@@ -1578,4 +1578,79 @@ F 5 "ECA-1HM101" H 10850 2550 60  0001 C CNN "Manufacturer Part Number"
 	1    10850 2550
 	1    0    0    1   
 $EndComp
+$Comp
+L R R58
+U 1 1 574D2C2C
+P 2000 3100
+F 0 "R58" V 1950 2900 50  0000 C CNN
+F 1 "68" V 2000 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1930 3100 50  0001 C CNN
+F 3 "" H 2000 3100 50  0000 C CNN
+F 4 "Panasonic" V 2000 3100 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 2000 3100 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R59
+U 1 1 574D2C35
+P 2000 3200
+F 0 "R59" V 1950 3000 50  0000 C CNN
+F 1 "68" V 2000 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1930 3200 50  0001 C CNN
+F 3 "" H 2000 3200 50  0000 C CNN
+F 4 "Panasonic" V 2000 3200 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 2000 3200 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R82
+U 1 1 574D2C3E
+P 2000 3300
+F 0 "R82" V 1950 3100 50  0000 C CNN
+F 1 "68" V 2000 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1930 3300 50  0001 C CNN
+F 3 "" H 2000 3300 50  0000 C CNN
+F 4 "Panasonic" V 2000 3300 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 2000 3300 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R87
+U 1 1 574D34F2
+P 2000 3800
+F 0 "R87" V 1950 3600 50  0000 C CNN
+F 1 "68" V 2000 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1930 3800 50  0001 C CNN
+F 3 "" H 2000 3800 50  0000 C CNN
+F 4 "Panasonic" V 2000 3800 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 2000 3800 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R88
+U 1 1 574D34FB
+P 2000 3900
+F 0 "R88" V 1950 3700 50  0000 C CNN
+F 1 "68" V 2000 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1930 3900 50  0001 C CNN
+F 3 "" H 2000 3900 50  0000 C CNN
+F 4 "Panasonic" V 2000 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF68R0V" V 2000 3900 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 3100 1850 3100
+Wire Wire Line
+	1700 3200 1850 3200
+Wire Wire Line
+	1700 3300 1850 3300
+Wire Wire Line
+	1700 3800 1850 3800
+Wire Wire Line
+	1700 3900 1850 3900
 $EndSCHEMATC
