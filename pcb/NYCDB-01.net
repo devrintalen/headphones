@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dev/gaf/headphones/pcb/NYCDB-01.sch)
-    (date "Mon 30 May 2016 05:10:00 PM CDT")
+    (date "Tue 31 May 2016 10:17:06 PM PDT")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -159,7 +159,7 @@
       (tstamp 5688D8AD))
     (comp (ref C6)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -177,7 +177,7 @@
       (tstamp 568AF8EC))
     (comp (ref R1)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -213,7 +213,7 @@
       (tstamp 57148B1A))
     (comp (ref C7)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -222,7 +222,7 @@
       (tstamp 571594D5))
     (comp (ref C10)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -231,7 +231,7 @@
       (tstamp 5715956B))
     (comp (ref C3)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -240,7 +240,7 @@
       (tstamp 57159614))
     (comp (ref C4)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -258,7 +258,7 @@
       (tstamp 57484B9C))
     (comp (ref C110)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -276,7 +276,7 @@
       (tstamp 56A21F1B))
     (comp (ref R9)
       (value 634)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF6340V))
@@ -285,7 +285,7 @@
       (tstamp 56A21F4F))
     (comp (ref R11)
       (value 91)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF91R0V))
@@ -294,7 +294,7 @@
       (tstamp 56A21F56))
     (comp (ref C16)
       (value "2700pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -303,7 +303,7 @@
       (tstamp 56A21F7F))
     (comp (ref R7)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -312,7 +312,7 @@
       (tstamp 56A21F90))
     (comp (ref C13)
       (value "470pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H471JA01))
@@ -321,7 +321,7 @@
       (tstamp 56A21F89))
     (comp (ref R5)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -339,7 +339,7 @@
       (tstamp 56A60AB3))
     (comp (ref R13)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -348,7 +348,7 @@
       (tstamp 56A61EC6))
     (comp (ref C15)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -357,7 +357,7 @@
       (tstamp 56A63424))
     (comp (ref R6)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -366,7 +366,7 @@
       (tstamp 5714F51E))
     (comp (ref R8)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -384,7 +384,7 @@
       (tstamp 57150BC8))
     (comp (ref R10)
       (value 634)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF6340V))
@@ -393,7 +393,7 @@
       (tstamp 5715440C))
     (comp (ref R12)
       (value 91)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF91R0V))
@@ -402,7 +402,7 @@
       (tstamp 57154E49))
     (comp (ref R14)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -411,7 +411,7 @@
       (tstamp 571552FC))
     (comp (ref R15)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -420,7 +420,7 @@
       (tstamp 57155733))
     (comp (ref C14)
       (value "470pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H471JA01))
@@ -438,7 +438,7 @@
       (tstamp 56A21F1B))
     (comp (ref R20)
       (value 634)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF6340V))
@@ -447,7 +447,7 @@
       (tstamp 56A21F4F))
     (comp (ref R22)
       (value 91)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF91R0V))
@@ -456,7 +456,7 @@
       (tstamp 56A21F56))
     (comp (ref C22)
       (value "2700pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -465,7 +465,7 @@
       (tstamp 56A21F7F))
     (comp (ref R18)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -474,7 +474,7 @@
       (tstamp 56A21F90))
     (comp (ref C19)
       (value "470pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H471JA01))
@@ -483,7 +483,7 @@
       (tstamp 56A21F89))
     (comp (ref R16)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -501,7 +501,7 @@
       (tstamp 56A60AB3))
     (comp (ref R24)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -510,7 +510,7 @@
       (tstamp 56A61EC6))
     (comp (ref C21)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -519,7 +519,7 @@
       (tstamp 56A63424))
     (comp (ref R17)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -528,7 +528,7 @@
       (tstamp 5714F51E))
     (comp (ref R19)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -546,7 +546,7 @@
       (tstamp 57150BC8))
     (comp (ref R21)
       (value 634)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF6340V))
@@ -555,7 +555,7 @@
       (tstamp 5715440C))
     (comp (ref R23)
       (value 91)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF91R0V))
@@ -564,7 +564,7 @@
       (tstamp 57154E49))
     (comp (ref R25)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -573,7 +573,7 @@
       (tstamp 571552FC))
     (comp (ref R26)
       (value 200)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2000V))
@@ -582,7 +582,7 @@
       (tstamp 57155733))
     (comp (ref C20)
       (value "470pF C0G")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H471JA01))
@@ -600,7 +600,7 @@
       (tstamp 56A42432))
     (comp (ref R34)
       (value 1.5K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1501V))
@@ -609,7 +609,7 @@
       (tstamp 56A426C5))
     (comp (ref R35)
       (value 1M)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1004V))
@@ -627,7 +627,7 @@
       (tstamp 56A42FE5))
     (comp (ref R33)
       (value 30)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF30R0V))
@@ -636,7 +636,7 @@
       (tstamp 56A43A9F))
     (comp (ref R31)
       (value 2.2K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2201V))
@@ -645,7 +645,7 @@
       (tstamp 56A43B94))
     (comp (ref C23)
       (value 33nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E333KA01))
@@ -654,7 +654,7 @@
       (tstamp 56A45754))
     (comp (ref R41)
       (value 220)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2200V))
@@ -681,7 +681,7 @@
       (tstamp 56A477F3))
     (comp (ref R36)
       (value 470)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF4700V))
@@ -690,7 +690,7 @@
       (tstamp 56A4C834))
     (comp (ref R29)
       (value 27)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF27R0V))
@@ -699,7 +699,7 @@
       (tstamp 56A4D226))
     (comp (ref R27)
       (value 4.7K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ472V))
@@ -708,7 +708,7 @@
       (tstamp 56A50C0D))
     (comp (ref C27)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -717,7 +717,7 @@
       (tstamp 56A54E1D))
     (comp (ref C24)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -726,7 +726,7 @@
       (tstamp 5715BBFF))
     (comp (ref C26)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -735,7 +735,7 @@
       (tstamp 5715BCAE))
     (comp (ref C28)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -744,7 +744,7 @@
       (tstamp 5715BD1C))
     (comp (ref C25)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -753,7 +753,7 @@
       (tstamp 5715BDBB))
     (comp (ref R30)
       (value 27)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF27R0V))
@@ -762,7 +762,7 @@
       (tstamp 571476DF))
     (comp (ref R28)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -771,7 +771,7 @@
       (tstamp 571495CF))
     (comp (ref R32)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -789,7 +789,7 @@
       (tstamp 5715BB8A))
     (comp (ref R40)
       (value 220)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2200V))
@@ -798,7 +798,7 @@
       (tstamp 57168387))
     (comp (ref R37)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -816,7 +816,7 @@
       (tstamp 56A75FB1))
     (comp (ref R43)
       (value 16.5K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1652V))
@@ -825,7 +825,7 @@
       (tstamp 56A76415))
     (comp (ref R54)
       (value 274K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2743V))
@@ -834,7 +834,7 @@
       (tstamp 56A76931))
     (comp (ref R55)
       (value 60.4K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF6042V))
@@ -843,7 +843,7 @@
       (tstamp 56A76980))
     (comp (ref C35)
       (value 33pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GQM1885C1H330GB01))
@@ -852,7 +852,7 @@
       (tstamp 56A769B0))
     (comp (ref R50)
       (value 102K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1023V))
@@ -861,7 +861,7 @@
       (tstamp 56A77192))
     (comp (ref C32)
       (value 22pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GQM1885C1H220GB01))
@@ -870,7 +870,7 @@
       (tstamp 56A772D6))
     (comp (ref R48)
       (value 294)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2940V))
@@ -888,7 +888,7 @@
       (tstamp 56A86798))
     (comp (ref C31)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A105KA61))
@@ -924,7 +924,7 @@
       (tstamp 570928B6))
     (comp (ref C41)
       (value 27pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H270JA01))
@@ -933,7 +933,7 @@
       (tstamp 57092CF9))
     (comp (ref R95)
       (value 34K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF3402V))
@@ -942,7 +942,7 @@
       (tstamp 57092DE5))
     (comp (ref C42)
       (value 1nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1E102JA01))
@@ -951,7 +951,7 @@
       (tstamp 57092E60))
     (comp (ref R56)
       (value 86.6K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF8662V))
@@ -978,7 +978,7 @@
       (tstamp 57098E1A))
     (comp (ref R96)
       (value 165K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1653V))
@@ -987,7 +987,7 @@
       (tstamp 570A03F7))
     (comp (ref R94)
       (value 422)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF4220V))
@@ -996,7 +996,7 @@
       (tstamp 570D9BD6))
     (comp (ref C33)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A105KA61))
@@ -1005,7 +1005,7 @@
       (tstamp 571FECDC))
     (comp (ref R46)
       (value 1.5K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1501V))
@@ -1014,7 +1014,7 @@
       (tstamp 571FF98C))
     (comp (ref R49)
       (value 1.5K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1501V))
@@ -1041,7 +1041,7 @@
       (tstamp 57203029))
     (comp (ref R44)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1050,7 +1050,7 @@
       (tstamp 5720460B))
     (comp (ref R45)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1059,7 +1059,7 @@
       (tstamp 5720476B))
     (comp (ref C30)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -1068,7 +1068,7 @@
       (tstamp 5721D1F8))
     (comp (ref C29)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1077,7 +1077,7 @@
       (tstamp 572262C0))
     (comp (ref C36)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1086,7 +1086,7 @@
       (tstamp 5722707A))
     (comp (ref C34)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1095,7 +1095,7 @@
       (tstamp 572271B3))
     (comp (ref R42)
       (value 121K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1213V))
@@ -1104,7 +1104,7 @@
       (tstamp 5722C1AA))
     (comp (ref R51)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -1113,7 +1113,7 @@
       (tstamp 57230EC5))
     (comp (ref R52)
       (value 294)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2940V))
@@ -1122,7 +1122,7 @@
       (tstamp 572353A4))
     (comp (ref R53)
       (value 294)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2940V))
@@ -1131,7 +1131,7 @@
       (tstamp 5723548D))
     (comp (ref C37)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1167,7 +1167,7 @@
       (tstamp 57204904))
     (comp (ref R57)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ104V))
@@ -1176,7 +1176,7 @@
       (tstamp 57206C4B))
     (comp (ref C38)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1185,7 +1185,7 @@
       (tstamp 5720EF64))
     (comp (ref C39)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -1194,7 +1194,7 @@
       (tstamp 5721CC18))
     (comp (ref C40)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -1203,7 +1203,7 @@
       (tstamp 5721CEB8))
     (comp (ref C96)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1212,7 +1212,7 @@
       (tstamp 5721F170))
     (comp (ref C98)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1221,7 +1221,7 @@
       (tstamp 5721FD9C))
     (comp (ref C97)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1230,7 +1230,7 @@
       (tstamp 5721FE80))
     (comp (ref C99)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1320,7 +1320,7 @@
       (tstamp 5723718C))
     (comp (ref C102)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1329,7 +1329,7 @@
       (tstamp 5723F68D))
     (comp (ref C103)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1338,7 +1338,7 @@
       (tstamp 5723F796))
     (comp (ref C100)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1347,7 +1347,7 @@
       (tstamp 5723F892))
     (comp (ref C101)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A106KE69))
@@ -1401,7 +1401,7 @@
       (tstamp 5726E69A))
     (comp (ref R100)
       (value 107K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1073V))
@@ -1410,7 +1410,7 @@
       (tstamp 5726E837))
     (comp (ref R101)
       (value 12.1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1212V))
@@ -1419,7 +1419,7 @@
       (tstamp 5726E9CF))
     (comp (ref R102)
       (value 37.4K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF3742V))
@@ -1437,7 +1437,7 @@
       (tstamp 57274C4B))
     (comp (ref R103)
       (value 12.1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1212V))
@@ -1446,7 +1446,7 @@
       (tstamp 5727962B))
     (comp (ref R47)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -1455,7 +1455,7 @@
       (tstamp 57286814))
     (comp (ref C108)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -1464,7 +1464,7 @@
       (tstamp 57382684))
     (comp (ref C109)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -1482,7 +1482,7 @@
       (tstamp 56A8D0CF))
     (comp (ref FB1)
       (value BKP1608HS330-T)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Manufacturer Part Number") BKP1608HS330-T))
@@ -1509,7 +1509,7 @@
       (tstamp 5728820B))
     (comp (ref R104)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEY0R00V))
@@ -1518,7 +1518,7 @@
       (tstamp 57291A33))
     (comp (ref C43)
       (value 0.01uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R71E103KA01))
@@ -1527,7 +1527,7 @@
       (tstamp 572BF9A2))
     (comp (ref C44)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1572,7 +1572,7 @@
       (tstamp 5704A1BB))
     (comp (ref R61)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1581,7 +1581,7 @@
       (tstamp 5704CAC1))
     (comp (ref C56)
       (value 2.7nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -1617,7 +1617,7 @@
       (tstamp 570560F9))
     (comp (ref R73)
       (value 39.2)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF39R2V))
@@ -1626,7 +1626,7 @@
       (tstamp 5705C022))
     (comp (ref C50)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1635,7 +1635,7 @@
       (tstamp 571D3FDF))
     (comp (ref C51)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1644,7 +1644,7 @@
       (tstamp 571D40C5))
     (comp (ref C49)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1698,7 +1698,7 @@
       (tstamp 571D9026))
     (comp (ref R60)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -1716,7 +1716,7 @@
       (tstamp 571E016D))
     (comp (ref C46)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1725,7 +1725,7 @@
       (tstamp 571D3E71))
     (comp (ref R62)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1734,7 +1734,7 @@
       (tstamp 571E9B19))
     (comp (ref R63)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1743,7 +1743,7 @@
       (tstamp 571E9C04))
     (comp (ref R64)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1752,7 +1752,7 @@
       (tstamp 571EA262))
     (comp (ref R65)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1761,7 +1761,7 @@
       (tstamp 571EA6B3))
     (comp (ref R66)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1770,7 +1770,7 @@
       (tstamp 571EA7B5))
     (comp (ref R71)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1779,7 +1779,7 @@
       (tstamp 571EA88D))
     (comp (ref R69)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1788,7 +1788,7 @@
       (tstamp 571EA999))
     (comp (ref R67)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1797,7 +1797,7 @@
       (tstamp 571EB8D1))
     (comp (ref R68)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1806,7 +1806,7 @@
       (tstamp 571EB9D9))
     (comp (ref R72)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1815,7 +1815,7 @@
       (tstamp 571EBB0B))
     (comp (ref R70)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF1001V))
@@ -1824,7 +1824,7 @@
       (tstamp 571EBBE9))
     (comp (ref R74)
       (value 39.2)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF39R2V))
@@ -1833,7 +1833,7 @@
       (tstamp 571EC77E))
     (comp (ref C57)
       (value 2.7nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -1842,7 +1842,7 @@
       (tstamp 571F0928))
     (comp (ref C58)
       (value 2.7nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -1851,7 +1851,7 @@
       (tstamp 571F0A0D))
     (comp (ref C59)
       (value 2.7nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM1885C1H272JA01))
@@ -1860,7 +1860,7 @@
       (tstamp 571F0EE5))
     (comp (ref C60)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1869,7 +1869,7 @@
       (tstamp 571F2AFB))
     (comp (ref C61)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1878,7 +1878,7 @@
       (tstamp 571F2D0D))
     (comp (ref C62)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1887,7 +1887,7 @@
       (tstamp 571F3155))
     (comp (ref C63)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1914,7 +1914,7 @@
       (tstamp 571F937B))
     (comp (ref C66)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1923,7 +1923,7 @@
       (tstamp 571F9CC0))
     (comp (ref C68)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -1959,7 +1959,7 @@
       (tstamp 571FAE4E))
     (comp (ref R58)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -1968,7 +1968,7 @@
       (tstamp 574D2C2C))
     (comp (ref R59)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -1977,7 +1977,7 @@
       (tstamp 574D2C35))
     (comp (ref R82)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -1986,7 +1986,7 @@
       (tstamp 574D2C3E))
     (comp (ref R87)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -1995,7 +1995,7 @@
       (tstamp 574D34F2))
     (comp (ref R88)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2022,7 +2022,7 @@
       (tstamp 56A4986A))
     (comp (ref R83)
       (value 2.4K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF2401V))
@@ -2040,7 +2040,7 @@
       (tstamp 56A50757))
     (comp (ref R91)
       (value 330)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF3300V))
@@ -2058,7 +2058,7 @@
       (tstamp 56A51262))
     (comp (ref C79)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2067,7 +2067,7 @@
       (tstamp 56A3FB2B))
     (comp (ref C91)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2094,7 +2094,7 @@
       (tstamp 56ACF7BB))
     (comp (ref R99)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEY0R00V))
@@ -2103,7 +2103,7 @@
       (tstamp 57179E3F))
     (comp (ref R76)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2112,7 +2112,7 @@
       (tstamp 571832AC))
     (comp (ref R90)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2121,7 +2121,7 @@
       (tstamp 57184AB6))
     (comp (ref R81)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2130,7 +2130,7 @@
       (tstamp 57186515))
     (comp (ref R86)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEY0R00V))
@@ -2139,7 +2139,7 @@
       (tstamp 57191802))
     (comp (ref R79)
       (value 4.7K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ472V))
@@ -2148,7 +2148,7 @@
       (tstamp 57192E53))
     (comp (ref R80)
       (value 4.7K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ472V))
@@ -2157,7 +2157,7 @@
       (tstamp 571932D8))
     (comp (ref R84)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEY0R00V))
@@ -2166,7 +2166,7 @@
       (tstamp 57193ECC))
     (comp (ref R85)
       (value 4.7K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ472V))
@@ -2175,7 +2175,7 @@
       (tstamp 571956AC))
     (comp (ref R77)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -2184,7 +2184,7 @@
       (tstamp 57197481))
     (comp (ref R78)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ103V))
@@ -2193,7 +2193,7 @@
       (tstamp 5719756B))
     (comp (ref R75)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEY0R00V))
@@ -2202,7 +2202,7 @@
       (tstamp 57198741))
     (comp (ref R97)
       (value 4.7K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3GEYJ472V))
@@ -2220,7 +2220,7 @@
       (tstamp 571B1CDB))
     (comp (ref C81)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2229,7 +2229,7 @@
       (tstamp 571C4C3F))
     (comp (ref C86)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2238,7 +2238,7 @@
       (tstamp 571C4CF5))
     (comp (ref C75)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2247,7 +2247,7 @@
       (tstamp 571C4DAC))
     (comp (ref C76)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2256,7 +2256,7 @@
       (tstamp 571C4E84))
     (comp (ref C77)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2265,7 +2265,7 @@
       (tstamp 571C4F43))
     (comp (ref C78)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2274,7 +2274,7 @@
       (tstamp 571C5007))
     (comp (ref C80)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2283,7 +2283,7 @@
       (tstamp 571C50CA))
     (comp (ref C82)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2292,7 +2292,7 @@
       (tstamp 571C5190))
     (comp (ref C87)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2301,7 +2301,7 @@
       (tstamp 571C5259))
     (comp (ref C83)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2310,7 +2310,7 @@
       (tstamp 571C731C))
     (comp (ref C84)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2319,7 +2319,7 @@
       (tstamp 571C73F4))
     (comp (ref C85)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A475KE15))
@@ -2328,7 +2328,7 @@
       (tstamp 571C74CB))
     (comp (ref C92)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2337,7 +2337,7 @@
       (tstamp 571CC456))
     (comp (ref C88)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2346,7 +2346,7 @@
       (tstamp 571CC51E))
     (comp (ref C93)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2355,7 +2355,7 @@
       (tstamp 571CC5F1))
     (comp (ref C89)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2364,7 +2364,7 @@
       (tstamp 571CCE81))
     (comp (ref C94)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2373,7 +2373,7 @@
       (tstamp 571CCF52))
     (comp (ref C90)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2382,7 +2382,7 @@
       (tstamp 571CD018))
     (comp (ref C95)
       (value 0.47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61A474KA61))
@@ -2391,7 +2391,7 @@
       (tstamp 571CD0F3))
     (comp (ref C73)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -2400,7 +2400,7 @@
       (tstamp 571CE2DE))
     (comp (ref C74)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -2409,7 +2409,7 @@
       (tstamp 571CE600))
     (comp (ref C72)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitors_SMD:C_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Manufacturer Part Number") GRM188R61C104KA01))
@@ -2418,7 +2418,7 @@
       (tstamp 571CF2DB))
     (comp (ref R3)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2427,7 +2427,7 @@
       (tstamp 574D9505))
     (comp (ref R4)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2436,7 +2436,7 @@
       (tstamp 574D950E))
     (comp (ref R2)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2445,7 +2445,7 @@
       (tstamp 574DAAB4))
     (comp (ref R89)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2454,7 +2454,7 @@
       (tstamp 574CCF72))
     (comp (ref R39)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -2463,7 +2463,7 @@
       (tstamp 574CCF7B))
     (comp (ref R38)
       (value 68)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer Part Number") ERJ-3EKF68R0V))
@@ -3134,10 +3134,10 @@
         (pin (num 3) (name OUT) (type output))
         (pin (num 4) (name VCC) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical memory)
       (uri /usr/share/kicad/library/memory.lib))
     (library (logical digital-audio)
