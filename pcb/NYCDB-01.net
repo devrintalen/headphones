@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dev/repos/headphones/pcb/NYCDB-01.sch)
-    (date "Mon 24 Oct 2016 10:34:43 PM EDT")
+    (date "Thu 27 Oct 2016 11:22:49 PM EDT")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -3443,10 +3443,10 @@
         (pin (num 3) (name OUT) (type output))
         (pin (num 4) (name VCC) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical memory)
       (uri /usr/share/kicad/library/memory.lib))
     (library (logical digital-audio)
