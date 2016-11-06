@@ -16,7 +16,7 @@
   (pad 5 thru_hole circle (at 4.1 0) (size 1.9 1.9) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at -4.1 0) (size 1.9 1.9) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-  (model /home/dev/repos/headphones/3dmodels/os-102011ms2qn1.wrl
+  (model headphones.3dshapes/os-102011ms2qn1.wrl
     (at (xyz 0 0 0.141732))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 270 0 0))

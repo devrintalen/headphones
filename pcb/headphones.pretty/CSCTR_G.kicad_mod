@@ -25,7 +25,7 @@
   (pad 2 smd rect (at 0 0) (size 0.4 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.5 0) (size 0.4 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.5 -1.05) (size 0.8 0.5) (layers F.Cu F.Paste F.Mask))
-  (model /home/dev/repos/headphones/3dmodels/csctr_g.wrl
+  (model headphones.3dshapes/csctr_g.wrl
     (at (xyz -0.088583 -0.03937 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

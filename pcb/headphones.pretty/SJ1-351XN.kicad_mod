@@ -18,9 +18,9 @@
   (pad 3 thru_hole circle (at 10.1 -5) (size 1.9 1.9) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 5.3 4.5) (size 1.9 1.9) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 12.9 4.2) (size 1.9 1.9) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-  (model /home/dev/repos/headphones/3dmodels/sj1-3515n.wrl
-    (at (xyz 0.209 0.008999999999999999 0))
-    (scale (xyz 3.42 3.42 3.42))
+  (model headphones.3dshapes/sj1-3515.wrl
+    (at (xyz -0.14 0 0.12))
+    (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 -180 0))
   )
 )

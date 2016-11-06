@@ -14,7 +14,7 @@
   (pad 2 thru_hole circle (at 3.25 2.25) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -3.25 -2.25) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -3.25 2.25) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model /home/dev/repos/headphones/3dmodels/b3f-1000.wrl
+  (model headphones.3dshapes/b3f-1000.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 270 0 0))
