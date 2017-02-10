@@ -11,3 +11,4 @@ sym/*.csv
 _saved_*.sch
 pcb/library/*.bck
 pcb/library/*.dcm
+pcb/outputs/*
