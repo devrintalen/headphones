@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:NYCDB-01-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

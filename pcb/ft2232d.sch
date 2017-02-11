@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:NYCDB-01-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:my
+LIBS:NYCDB-01-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -287,9 +289,11 @@ F 5 "ERJ-3EKF2200V" V 7350 5100 60  0001 C CNN "Manufacturer Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-NYCDB-01 D1
 U 1 1 56A47794
 P 7700 4800
+AR Path="/56A47794" Ref="D1"  Part="1" 
+AR Path="/56A409F6/56A47794" Ref="D1"  Part="1" 
 F 0 "D1" H 7700 4900 50  0000 C CNN
 F 1 "RX" H 7700 4700 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 7700 4800 50  0001 C CNN
@@ -300,9 +304,11 @@ F 5 "LTST-C191KRKT" H 7700 4800 60  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-NYCDB-01 D2
 U 1 1 56A477F3
 P 8000 4800
+AR Path="/56A477F3" Ref="D2"  Part="1" 
+AR Path="/56A409F6/56A477F3" Ref="D2"  Part="1" 
 F 0 "D2" H 8000 4900 50  0000 C CNN
 F 1 "TX" H 8000 4700 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 8000 4800 50  0001 C CNN
